@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Building from './Building/Building'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='studioiwill-root-container'>
+      <div className='studioiwill-back'>
+        <Building height={'563px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
+        <Building height={'788px'} number={'01'} title={'Ducker'} date={2022.06} />
+        <Building height={'640px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
+        <Building height={'916px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
+        <Building height={'507px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
+      </div>
+      <div className='studioiwill-front'>
+        <Building height={'380px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
+        <Building height={'473px'} number={'01'} title={'Ducker'} date={2022.06} />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
