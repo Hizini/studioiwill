@@ -1,35 +1,19 @@
-@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-.studioiwill-root-container {
-  display: flex;
-  justify-content: center;
-  padding: 0 200px;
-  overflow: auto;
-  width: calc(100% - 400px);
-  position: relative;
-  min-width: 1520px;
-  width: 1520px;
+@font-face {
+    font-family: NanumSquareNeo;
+    font-weight: 700;
+    src: url("/public/fonts/NanumSquareNeo-Blold.ttf");
 }
 
-.studioiwill-back {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  width: 100%;
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 400;
+    src: url("/public/fonts/NanumSquareNeo-Regular.ttf");
 }
 
-.studioiwill-front {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  width: 1520px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-left: 330px;
-  z-index: 1;
-  gap: 310px;
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    src: url("/public/fonts/NanumSquareNeo-Heavy.ttf");
 }

@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+    width: calc(100vw - 280px);
+    height: 120px;
+}
+
+.nav-logo-area {
+    width: 146px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.menu-area {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu-item {
+    cursor: pointer;
+    font-family: 'NanumSquareNeo';
+    font-weight: normal;
+    font-size: 16px;
+    color: #252525;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+}

@@ -1,21 +1,15 @@
 import './App.css'
-import Building from './Building/Building'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Home/Home'
+import About from './About/About'
 
-function App() {
+const App = () => {
   return (
-    <div className='studioiwill-root-container'>
-      <div className='studioiwill-back'>
-        <Building height={'563px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
-        <Building height={'788px'} number={'01'} title={'Ducker'} date={2022.06} />
-        <Building height={'640px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
-        <Building height={'916px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
-        <Building height={'507px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
-      </div>
-      <div className='studioiwill-front'>
-        <Building height={'380px'} number={'01'} title={'GRAY CITY 신사옥'} date={2022.09} />
-        <Building height={'473px'} number={'01'} title={'Ducker'} date={2022.06} />
-      </div>
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
   )
 }
 
