@@ -17,6 +17,33 @@
 
 .about-area {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.about-logo-area {
+    width: 180px;
+    height: 30px;
+}
+
+.about-text {
+    font-family: NanumSquareNeo;
+    font-size: 26px;
+    color: #252525;
+    margin: 33px 0 20px 0;
+}
+
+.about-text2 {
+    font-family: NanumSquareNeo;
+    font-size: 18px;
+    color: #252525;
+    margin-top: 20px;
+}
+
+.detail-area {
+    display: flex;
     flex-direction: row;
     margin: 40px 0  50px 0;
     gap: 320px;
