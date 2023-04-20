@@ -76,9 +76,12 @@ const projectData = {
     ]
 }
 
+// WEB
 const BACK_BUILDING_NUMBER = 5
-const FRONT_BUILDING_NUMBER = 2
+const FRONT_BUILDING_NUMBER = 3
 const backBuilding = projectData.data.slice(0, BACK_BUILDING_NUMBER)
 const frontBuilding = projectData.data.slice(BACK_BUILDING_NUMBER, BACK_BUILDING_NUMBER + FRONT_BUILDING_NUMBER)
+
+// MOBILE
 
 export { projectData, BACK_BUILDING_NUMBER, FRONT_BUILDING_NUMBER, backBuilding, frontBuilding }

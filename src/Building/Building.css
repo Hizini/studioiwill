@@ -5,7 +5,7 @@
     justify-content: space-between;
     width: 300px;
     min-width: 300px;
-    border: 2px solid #252525;
+    border: 7px solid #808080;
     perspective: 200px;
     background: white;
     cursor: pointer;
@@ -14,20 +14,20 @@
 .side {
     width: 56px;
     min-width: 56px;
-    background: #252525;
+    background: #808080;
     position: relative;
 }
 
 .space {
     width: 0;
     height: 0;
-    border-top: 28px solid white;
-    border-bottom: 28px solid transparent;
-    border-right: 28px solid white;
-    border-left: 28px solid transparent;
+    border-top: 35px solid white;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid white;
+    border-left: 35px solid transparent;
     position: absolute;
-    top: -2px;
-    right: -2px
+    top: -9px;
+    right: -9px
 }
 
 .text-area {
