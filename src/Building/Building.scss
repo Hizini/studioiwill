@@ -1,0 +1,71 @@
+.building {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 248px;
+    border: 7px solid #808080;
+    perspective: 200px;
+    background: white;
+    cursor: pointer;
+    margin-right: 56px;
+
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        padding: 15px;
+
+        .number {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            color: #252525;
+        }
+
+        .title {
+            font-family: NanumSquareNeo;
+            font-weight: bold;
+            font-size: 22px;
+            letter-spacing: -0.55px;
+            color: #252525;
+            margin: 9px 0 3px 0;
+        }
+
+        .date {
+            font-family: NanumSquareNeo;
+            font-size: 14px;
+            color: #252525;
+        }
+    }
+
+    .side {
+        width: 56px;
+        min-width: 56px;
+        background: #808080;
+        position: absolute;
+        right: -63px;
+        bottom: -34px;
+        transform: skewY(45deg);
+    }
+
+    .window {
+        position: absolute;
+        top: 12px;
+        width: 12px;
+        height: 35px;
+        background-color: white;
+
+        &.first {
+            left: 0px;
+        }
+
+        &.second {
+            left: 20px;
+        }
+
+        &.third {
+            left: 40px;
+        }
+    }
+}

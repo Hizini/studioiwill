@@ -11,7 +11,7 @@
 const projectData = {
     data: [
         {
-            height: '563px',
+            height: 563,
             number: '01',
             title: 'GRAY CITY 신사옥',
             date: '2022.09',
@@ -20,7 +20,7 @@ const projectData = {
             designer: '김희원, 한덕규'
         },
         {
-            height: '788px',
+            height: 788,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
@@ -29,7 +29,7 @@ const projectData = {
             designer: ''
         },
         {
-            height: '640px',
+            height: 640,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
@@ -38,7 +38,7 @@ const projectData = {
             designer: ''
         },
         {
-            height: '916px',
+            height: 916,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
@@ -47,7 +47,7 @@ const projectData = {
             designer: ''
         },
         {
-            height: '507px',
+            height: 507,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
@@ -56,7 +56,7 @@ const projectData = {
             designer: ''
         },
         {
-            height: '380px',
+            height: 380,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
@@ -65,7 +65,7 @@ const projectData = {
             designer: ''
         },
         {
-            height: '473px',
+            height: 473,
             number: '01',
             title: 'Ducker',
             date: '2022.06',
