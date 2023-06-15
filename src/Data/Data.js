@@ -26,7 +26,8 @@ const projectData = {
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+			marginRight: 30
         },
         {
             height: 640,
@@ -35,7 +36,8 @@ const projectData = {
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+			marginRight: 96
         },
         {
             height: 916,
@@ -44,7 +46,8 @@ const projectData = {
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+			marginRight: 26
         },
         {
             height: 507,
@@ -53,7 +56,8 @@ const projectData = {
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+			marginRight: -1400
         },
         {
             height: 380,
@@ -62,7 +66,8 @@ const projectData = {
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+			marginRight: 360
         },
         {
             height: 473,

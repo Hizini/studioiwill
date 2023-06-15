@@ -3,9 +3,10 @@
   justify-content: center;
   padding: 0 200px;
   overflow: auto;
-  min-width: calc(100vw - 400px);
+//   min-width: calc(100vw - 400px);
+  max-width: calc(100vw - 400px);
   position: relative;
-  width: 1570px;
+//   width: 1570px;
   padding-top: 160px;
   min-height: calc(100vh - 160px);
 
@@ -33,9 +34,10 @@
       display: flex;
       flex-direction: row;
       align-items: flex-end;
-      justify-content: center;
+      justify-content: flex-start;
       width: 100%;
-      overflow: hidden;
+	  overflow-y: hidden;
+    //   overflow: hidden;
     }
 
     .studioiwill-front {
@@ -46,7 +48,7 @@
       position: absolute;
       bottom: 0;
       left: 118px;
-      z-index: 1;
+    //   z-index: 1;
       gap: 310px;
       overflow: hidden;
     }
