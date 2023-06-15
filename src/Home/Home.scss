@@ -36,8 +36,7 @@
       align-items: flex-end;
       justify-content: flex-start;
       width: 100%;
-	  overflow-y: hidden;
-    //   overflow: hidden;
+	  overflow-y: clip;
     }
 
     .studioiwill-front {
