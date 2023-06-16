@@ -18,7 +18,7 @@ function Building(props) {
             className="building"
             style={{
                 height: height + "px",
-                zIndex: -height,
+                zIndex: Math.floor((10000 - height) / 2),
                 marginRight: marginRight + "px",
             }}
             onClick={() => navigate("/detail", { state: { status, index } })}
