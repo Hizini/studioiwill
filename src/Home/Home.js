@@ -1,6 +1,6 @@
 import "./Home.scss";
 import Building from "../Building/Building";
-import { backBuilding, frontBuilding, projectData } from "../Data/Data";
+import { projectData } from "../Data/Data";
 
 const Home = () => {
     return (
@@ -22,7 +22,6 @@ const Home = () => {
                             title={data.title}
                             date={data.date}
 							marginRight={data.marginRight}
-                            status={"back"}
                             index={index}
                         />
 						))
