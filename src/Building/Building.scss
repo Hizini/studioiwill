@@ -3,12 +3,16 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 248px;
+    min-width: 248px;
     border: 7px solid #808080;
     perspective: 200px;
     background: white;
     cursor: pointer;
-    margin-right: 56px;
+    // margin-right: 46px;
+
+    &.checked {
+        border: 7px solid black;
+    }
 
     .text-area {
         display: flex;
@@ -44,9 +48,13 @@
         min-width: 56px;
         background: #808080;
         position: absolute;
-        right: -63px;
+        right: -62px;
         bottom: -34px;
         transform: skewY(45deg);
+
+        &.checked {
+            background: black;
+        }
     }
 
     .window {
@@ -57,7 +65,7 @@
         background-color: white;
 
         &.first {
-            left: 0px;
+            left: 2px;
         }
 
         &.second {
@@ -65,7 +73,7 @@
         }
 
         &.third {
-            left: 40px;
+            left: 38px;
         }
     }
 }
