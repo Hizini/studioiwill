@@ -17,12 +17,13 @@ const Home = () => {
 					{
 						projectData.data.map((data, index) => (
 							<Building
-                            height={data.height}
-                            number={data.number}
-                            title={data.title}
-                            date={data.date}
-							marginRight={data.marginRight}
-                            index={index}
+                                height={data.height}
+                                number={data.number}
+                                title={data.title}
+                                date={data.date}
+                                marginRight={data.marginRight}
+                                index={index}
+                                key={index}
                         />
 						))
 					}

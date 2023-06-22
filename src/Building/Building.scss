@@ -10,6 +10,10 @@
     cursor: pointer;
     // margin-right: 46px;
 
+    &.checked {
+        border: 7px solid black;
+    }
+
     .text-area {
         display: flex;
         flex-direction: column;
@@ -47,6 +51,10 @@
         right: -62px;
         bottom: -34px;
         transform: skewY(45deg);
+
+        &.checked {
+            background: black;
+        }
     }
 
     .window {

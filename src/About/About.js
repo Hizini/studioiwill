@@ -41,7 +41,7 @@ const About = () => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: Math.floor((window.innerWidth - 280) / 260),
         slidesToScroll: 1,
         variableWidth: true,
         arrows: false,
@@ -64,6 +64,7 @@ const About = () => {
                                         }
                                         src={img.src}
                                         alt=""
+                                        key={i}
                                     />
                                 ))}
                             </Slider>
