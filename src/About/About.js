@@ -68,18 +68,18 @@ const About = () => {
                                     />
                                 ))}
                             </Slider>
-                            <div className="about-slider-btn prev">
+                            <div className="about-slider-btn prev" onClick={handleClickPrvBtn}>
                                 <img
                                     className="slider-btn-img"
-                                    onClick={handleClickPrvBtn}
+                                    
                                     src="/images/left-arrow.svg"
                                     alt=""
                                 />
                             </div>
-                            <div className="about-slider-btn next">
+                            <div className="about-slider-btn next"  onClick={handleClickNextBtn}>
                                 <img
                                     className="slider-btn-img"
-                                    onClick={handleClickNextBtn}
+                                   
                                     src="/images/right-arrow.svg"
                                     alt=""
                                 />
