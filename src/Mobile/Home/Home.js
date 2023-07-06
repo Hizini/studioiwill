@@ -1,4 +1,4 @@
-import './Home.css'
+import './Home.scss'
 import Building from '../../Building/Building'
 import { projectData } from '../../Data/Data'
 

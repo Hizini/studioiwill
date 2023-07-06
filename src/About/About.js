@@ -41,10 +41,29 @@ const About = () => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: Math.floor((window.innerWidth - 280) / 260),
+        slidesToShow: 4,
         slidesToScroll: 1,
-        variableWidth: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                  slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 1,
+                }
+            },
+        ]
     };
 
     return (
@@ -68,18 +87,18 @@ const About = () => {
                                     />
                                 ))}
                             </Slider>
-                            <div className="about-slider-btn prev" onClick={handleClickPrvBtn}>
+                            <div className="about-slider-btn prev">
                                 <img
                                     className="slider-btn-img"
-                                    
+                                    onClick={handleClickPrvBtn}
                                     src="/images/left-arrow.svg"
                                     alt=""
                                 />
                             </div>
-                            <div className="about-slider-btn next"  onClick={handleClickNextBtn}>
+                            <div className="about-slider-btn next">
                                 <img
                                     className="slider-btn-img"
-                                   
+                                    onClick={handleClickNextBtn}
                                     src="/images/right-arrow.svg"
                                     alt=""
                                 />
