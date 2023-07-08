@@ -3,22 +3,18 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    min-width: 248px;
-    border: 7px solid #808080;
+    width: 20%;
+    min-width: 80px;
+    border: 3px solid black;
     perspective: 200px;
     background: white;
     cursor: pointer;
-    // margin-right: 46px;
-
-    &.checked {
-        border: 7px solid black;
-    }
 
     .text-area {
         display: flex;
         flex-direction: column;
         justify-items: flex-start;
-        padding: 15px;
+        padding: 10%;
 
         .number {
             font-family: Montserrat;
@@ -30,7 +26,7 @@
         .title {
             font-family: NanumSquareNeo;
             font-weight: bold;
-            font-size: 22px;
+            font-size: 16px;
             letter-spacing: -0.55px;
             color: #252525;
             margin: 9px 0 3px 0;
@@ -38,42 +34,24 @@
 
         .date {
             font-family: NanumSquareNeo;
-            font-size: 14px;
+            font-size: 11px;
             color: #252525;
         }
     }
 
     .side {
-        width: 56px;
-        min-width: 56px;
-        background: #808080;
+        width: 20px;
+        min-width: 20px;
+        background: black;
         position: absolute;
-        right: -62px;
-        bottom: -34px;
+        right: -25px;
+        bottom: -21px;
         transform: skewY(45deg);
+        border-right: 3px solid black;
 
         &.checked {
-            background: black;
-        }
-    }
-
-    .window {
-        position: absolute;
-        top: 12px;
-        width: 12px;
-        height: 35px;
-        background-color: white;
-
-        &.first {
-            left: 2px;
-        }
-
-        &.second {
-            left: 20px;
-        }
-
-        &.third {
-            left: 38px;
+            background: linear-gradient(black 50%, white 50%);
+            background-size: 100% 30px;
         }
     }
 }

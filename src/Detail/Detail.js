@@ -1,4 +1,4 @@
-import "./Detail.css";
+import "./Detail.scss";
 import Nav from "../Nav/Nav";
 import { useLocation, useNavigate } from "react-router-dom";
 import React, { useEffect, useRef, useState } from "react";
@@ -22,11 +22,11 @@ const previewImges = [
     },
 ];
 
-const Detail = () => {
-    const { pathname } = window.location;
-    const location = useLocation();
-    const navigate = useNavigate();
-    let index;
+const Detail = props => {
+    // const { pathname } = window.location;
+    // const location = useLocation();
+    // const navigate = useNavigate();
+    const { index, setShowDetail } = props;
     const detailArr = projectData.data;
     const [previewSrc, setPreviewSrc] = useState(
         "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLLREg%2FbtrbhYLdx4M%2Fw3BWXIjm185YfkGITrU9HK%2Fimg.jpg"
@@ -34,16 +34,16 @@ const Detail = () => {
 
     const slickRef = useRef();
 
-    useEffect(() => {
-        if (pathname === "/detail" && !location.state) return navigate("/");
+    // useEffect(() => {
+    //     if (pathname === "/detail" && !location.state) return navigate("/");
 
-        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    }, []);
+    //     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    // }, []);
 
-    if (pathname === "/detail") {
-        if (!location.state) return navigate("/");
-        index = location.state.index;
-    }
+    // if (pathname === "/detail") {
+    //     if (!location.state) return navigate("/");
+    //     index = location.state.index;
+    // }
 
     const handleClickPrvBtn = () => slickRef.current.slickPrev();
     const handleClickNextBtn = () => slickRef.current.slickNext();
@@ -63,9 +63,9 @@ const Detail = () => {
     };
 
     return (
-        <>
-            <Nav />
-            <div className="studioiwill-About-root-container">
+        <div className="studioiwill-detail-root-container">
+            <Nav setShowDetail={setShowDetail}/>
+            <div >
                 <div className="preview-area">
                     <img className="preview" src={previewSrc} alt="" />
                     <div className="preview-slider-area">
@@ -79,6 +79,7 @@ const Detail = () => {
                                         }
                                         src={img.src}
                                         alt=""
+                                        key={i}
                                     />
                                 ))}
                             </Slider>
@@ -136,7 +137,7 @@ const Detail = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

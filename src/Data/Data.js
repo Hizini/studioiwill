@@ -11,75 +11,209 @@
 const projectData = {
     data: [
         {
-            height: 563,
             number: '01',
             title: 'GRAY CITY 신사옥',
             date: '2022.09',
             location: '서울시 송파구 방이동 168 - 5',
             area: '826m² (52.84PY)',
-            designer: '김희원, 한덕규'
+            designer: '김희원, 한덕규',
+            style: {
+                height: '260px',
+            }
         },
         {
-            height: 788,
-            number: '01',
-            title: 'Ducker',
+            number: '02',
+            title: 'Ducker2',
             date: '2022.06',
             location: '',
             area: '',
             designer: '',
-			marginRight: 30
+            style: {
+                height: '350px',
+                marginLeft: '-20px'
+            }
         },
         {
-            height: 640,
-            number: '01',
-            title: 'Ducker',
+            number: '03',
+            title: 'Ducker3',
             date: '2022.06',
             location: '',
             area: '',
             designer: '',
-			marginRight: 96
+            style: {
+                height: '320px',
+            }
         },
         {
-            height: 916,
-            number: '01',
-            title: 'Ducker',
+
+            number: '04',
+            title: 'Ducker4',
             date: '2022.06',
             location: '',
             area: '',
             designer: '',
-			marginRight: 26
+            style: {
+                height: '460px',
+            }
         },
         {
-            height: 507,
-            number: '01',
-            title: 'Ducker',
+            number: '05',
+            title: 'Ducker5',
             date: '2022.06',
             location: '',
             area: '',
             designer: '',
-			marginRight: -1400
+            style: {
+                height: '345px',
+            }
         },
         {
-            height: 380,
-            number: '01',
-            title: 'Ducker',
+            number: '06',
+            title: 'Ducker6',
             date: '2022.06',
             location: '',
             area: '',
             designer: '',
-			marginRight: 360
+            style: {
+                height: '145px',
+                position: 'absolute',
+                marginLeft: '60px'
+            }
         },
         {
-            height: 473,
-            number: '01',
-            title: 'Ducker',
+            number: '07',
+            title: 'Ducker7',
             date: '2022.06',
             location: '',
             area: '',
-            designer: ''
+            designer: '',
+            style: {
+                height: '236px',
+                position: 'absolute',
+                marginLeft: 'calc(20% + 30px)'
+            }
+        },
+        {
+            number: '08',
+            title: 'Ducker8',
+            date: '2022.06',
+            location: '',
+            area: '',
+            designer: '',
+            style: {
+                height: '150px',
+                position: 'absolute',
+                marginLeft: 'calc(40% + 30px)'
+            }
+        },
+        {
+            number: '09',
+            title: 'Ducker9',
+            date: '2022.06',
+            location: '',
+            area: '',
+            designer: '',
+            style: {
+                height: '222px',
+                position: 'absolute',
+                marginLeft: 'calc(60% + 30px)'
+            }
         },
     ]
 }
+// const projectData = {
+//     data: [
+//         {
+//             height: 260,
+//             number: '01',
+//             title: 'GRAY CITY 신사옥',
+//             date: '2022.09',
+//             location: '서울시 송파구 방이동 168 - 5',
+//             area: '826m² (52.84PY)',
+//             designer: '김희원, 한덕규',
+//             marginRight: 20
+//         },
+//         {
+//             height: 350,
+//             number: '02',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 10
+//         },
+//         {
+//             height: 320,
+//             number: '03',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 10
+//         },
+//         {
+//             height: 460,
+//             number: '04',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 26
+//         },
+//         {
+//             height: 345,
+//             number: '05',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: -620
+//         },
+//         {
+//             height: 160,
+//             number: '06',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 50
+//         },
+//         {
+//             height: 236,
+//             number: '07',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 40
+//         },
+//         {
+//             height: 150,
+//             number: '08',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+// 			marginRight: 30
+//         },
+//         {
+//             height: 236,
+//             number: '09',
+//             title: 'Ducker',
+//             date: '2022.06',
+//             location: '',
+//             area: '',
+//             designer: '',
+//         },
+//     ]
+// }
 
 // WEB
 const BACK_BUILDING_NUMBER = 5

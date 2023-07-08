@@ -3,15 +3,19 @@ import { useNavigate } from "react-router-dom";
 
 function Building(props) {
     const {
-        height,
+        // 빌딩 정보
+        style,
+        height = Number(style.height.slice(0, -2)),
         number,
         title,
         date,
         status,
         index,
-        marginRight = 46,
+        // 빌딩 클릭 이벤트
+        showBuildingDetail
     } = props;
     const navigate = useNavigate();
+
 
     const checkedBuildingIndexes = JSON.parse(sessionStorage.getItem('checkedBuildingIndexes')) ?? [];
     const isChecked = checkedBuildingIndexes.includes(index);
@@ -22,16 +26,16 @@ function Building(props) {
             sessionStorage.setItem('checkedBuildingIndexes', JSON.stringify(checkedBuildingIndexes));
         }
         
-        navigate(url, params);
+        showBuildingDetail(params);
+        // navigate(url, params);
     }
 
     return (
         <div
             className={`building ${isChecked ? 'checked' : ''}`}
             style={{
-                height: height + "px",
+                ...style,
                 zIndex: Math.floor((10000 - height) / 2),
-                marginRight: marginRight + "px",
             }}
             onClick={() => goto("/detail", { state: { status, index } })}
         >
@@ -41,9 +45,6 @@ function Building(props) {
                 <div className="date">{date}</div>
             </div>
             <div className={`side ${isChecked ? 'checked' : ''}`} style={{ height: height + 13 + "px" }}>
-                <div className="window first" />
-                <div className="window second" />
-                <div className="window third" />
             </div>
         </div>
     );

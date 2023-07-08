@@ -87,18 +87,16 @@ const About = () => {
                                     />
                                 ))}
                             </Slider>
-                            <div className="about-slider-btn prev">
+                            <div className="about-slider-btn prev" onClick={handleClickPrvBtn}>
                                 <img
                                     className="slider-btn-img"
-                                    onClick={handleClickPrvBtn}
                                     src="/images/left-arrow.svg"
                                     alt=""
                                 />
                             </div>
-                            <div className="about-slider-btn next">
+                            <div className="about-slider-btn next" onClick={handleClickNextBtn}>
                                 <img
                                     className="slider-btn-img"
-                                    onClick={handleClickNextBtn}
                                     src="/images/right-arrow.svg"
                                     alt=""
                                 />
@@ -115,9 +113,7 @@ const About = () => {
                         />
                     </div>
                     <div className="about-text">I'll make anything for you</div>
-                    <div className="about-text2">
-                        서울특별시 서대문구 연희로57 2F
-                    </div>
+                    <div className="about-text2">서울특별시 서대문구 연희로57 2F</div>
                     <div className="about-text2">김희원, 한덕규</div>
                 </div>
             </div>
