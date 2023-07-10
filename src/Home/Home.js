@@ -10,7 +10,7 @@ const Home = () => {
 
     const navigate = useNavigate();
 
-    const showBuildingDetail = detailInfo => {
+    const showBuildingDetail = (detailInfo) => {
         setParams(detailInfo);
         setShowDetail(true);
     };
@@ -18,15 +18,23 @@ const Home = () => {
     return (
         <div className="studioiwill-Home-root-container">
             <div className="left">
-                {
-                    showDetail
-                    ? <Detail index={params.state?.index}
-                              setShowDetail={setShowDetail}/>
-                    : <div className="logo-area"><img onClick={() => navigate('about')} src='/images/studioiwill-main-logo.png' alt=''/></div>
-                }
+                {showDetail ? (
+                    <Detail
+                        index={params.state?.index}
+                        setShowDetail={setShowDetail}
+                    />
+                ) : (
+                    <div className="logo-area">
+                        <img
+                            onClick={() => navigate("about")}
+                            src="/images/studioiwill-main-logo.png"
+                            alt=""
+                        />
+                    </div>
+                )}
             </div>
             <div className="right">
-                <Projects showBuildingDetail={showBuildingDetail}/>
+                <Projects showBuildingDetail={showBuildingDetail} />
                 <div className="footer">
                     <div className="company">
                         STUDIO I'll_All Rights Reserved.

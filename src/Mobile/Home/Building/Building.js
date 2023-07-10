@@ -1,5 +1,4 @@
 import "./Building.scss";
-import { useNavigate } from "react-router-dom";
 
 function Building(props) {
     const {
@@ -14,8 +13,6 @@ function Building(props) {
         // 빌딩 클릭 이벤트
         showBuildingDetail
     } = props;
-    const navigate = useNavigate();
-
 
     const checkedBuildingIndexes = JSON.parse(sessionStorage.getItem('checkedBuildingIndexes')) ?? [];
     const isChecked = checkedBuildingIndexes.includes(index);

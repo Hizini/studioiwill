@@ -1,36 +1,32 @@
-.studioiwill-Projects-root-container {
-  width: 100%;
-  height: calc(94vh - 70px);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.studioiwill-projects-root-container {
+	width: 100%;
+	height: 100%;
+	//   height: calc(94vh - 70px);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 
-  .home-container {
-    margin: 10% 2vw 0 2vw;
-    height: 100%;
-    overflow: auto;
+	.home-container {
+		margin: 10% 2vw 0 2vw;
+		height: 100%;
+		overflow: auto;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
 
-    .studioiwill-back {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-      justify-content: flex-start;
-      width: 100%;
-      height: 100%;
-      overflow-y: clip;
-      position: relative;
-    }
+		&::-webkit-scrollbar {
+			display: none;
+		}
 
-    .studioiwill-front {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 118px;
-      gap: 310px;
-      overflow: hidden;
-    }
-  }
+		.studioiwill-back {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			justify-content: flex-start;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			overflow-y: clip;
+			position: relative;
+		}
+	}
 }
