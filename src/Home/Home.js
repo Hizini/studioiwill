@@ -22,7 +22,7 @@ const Home = () => {
                     showDetail
                     ? <Detail index={params.state?.index}
                               setShowDetail={setShowDetail}/>
-                    : <div className="logo-area"><img onClick={() => navigate('about')} src='/images/studioiwill-small-logo.png' alt=''/></div>
+                    : <div className="logo-area"><img onClick={() => navigate('about')} src='/images/studioiwill-main-logo.png' alt=''/></div>
                 }
             </div>
             <div className="right">

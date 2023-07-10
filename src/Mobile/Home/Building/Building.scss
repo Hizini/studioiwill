@@ -1,9 +1,9 @@
-.building {
+.m-building {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 20%;
+    width: 40%;
     min-width: 80px;
     border: 3px solid black;
     perspective: 200px;
@@ -40,17 +40,17 @@
     }
 
     .side {
-        width: 20px;
-        min-width: 20px;
+        width: 30px;
+        min-width: 30px;
         background: black;
         position: absolute;
-        right: -25px;
-        bottom: -21px;
+        right: -36px;
+        bottom: -26px;
         transform: skewY(45deg);
         border-right: 3px solid black;
 
         &.checked {
-			background: linear-gradient(black 25%, white 25% 50%, black 50% 75%, white 75% 100%);
+            background: linear-gradient(black 25%, white 25% 50%, black 50% 75%, white 75% 100%);
             background-size: 100% 30px;
         }
     }

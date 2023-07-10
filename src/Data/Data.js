@@ -19,7 +19,11 @@ const projectData = {
             designer: '김희원, 한덕규',
             style: {
                 height: '260px',
-            }
+            },
+			mobile_style: {
+				height: '100px',
+				marginLeft: '10px'
+			}
         },
         {
             number: '02',
@@ -31,7 +35,12 @@ const projectData = {
             style: {
                 height: '350px',
                 marginLeft: '-20px'
-            }
+            },
+			mobile_style: {
+				height: '200px',
+				marginLeft: '10px'
+				
+			}
         },
         {
             number: '03',
@@ -42,7 +51,12 @@ const projectData = {
             designer: '',
             style: {
                 height: '320px',
-            }
+            },
+			mobile_style: {
+				height: '350px',
+				position: 'absolute',
+				marginLeft: '60px'
+			}
         },
         {
 
@@ -54,7 +68,12 @@ const projectData = {
             designer: '',
             style: {
                 height: '460px',
-            }
+            },
+			mobile_style: {
+				height: '500px',
+				position: 'absolute',
+				marginLeft: '40%'
+			}
         },
         {
             number: '05',
@@ -65,7 +84,12 @@ const projectData = {
             designer: '',
             style: {
                 height: '345px',
-            }
+            },
+			mobile_style: {
+				height: '600px',
+				position: 'absolute',
+				marginLeft: '80px'
+			}
         },
         {
             number: '06',
@@ -78,7 +102,12 @@ const projectData = {
                 height: '145px',
                 position: 'absolute',
                 marginLeft: '60px'
-            }
+            },
+			mobile_style: {
+				height: '700px',
+				position: 'absolute',
+				marginLeft: '30%'
+			}
         },
         {
             number: '07',
@@ -91,7 +120,12 @@ const projectData = {
                 height: '236px',
                 position: 'absolute',
                 marginLeft: 'calc(20% + 30px)'
-            }
+            },
+			mobile_style: {
+				height: '450px',
+				position: 'absolute',
+				marginLeft: '25%'
+			}
         },
         {
             number: '08',
@@ -104,7 +138,12 @@ const projectData = {
                 height: '150px',
                 position: 'absolute',
                 marginLeft: 'calc(40% + 30px)'
-            }
+            },
+			mobile_style: {
+				height: '90px',
+				position: 'absolute',
+				marginLeft: 'calc(30% + 30px)'
+			}
         },
         {
             number: '09',
@@ -117,110 +156,14 @@ const projectData = {
                 height: '222px',
                 position: 'absolute',
                 marginLeft: 'calc(60% + 30px)'
-            }
+            },
+			mobile_style: {
+				height: '250px',
+				position: 'absolute',
+				marginLeft: '10%'
+			}
         },
     ]
 }
-// const projectData = {
-//     data: [
-//         {
-//             height: 260,
-//             number: '01',
-//             title: 'GRAY CITY 신사옥',
-//             date: '2022.09',
-//             location: '서울시 송파구 방이동 168 - 5',
-//             area: '826m² (52.84PY)',
-//             designer: '김희원, 한덕규',
-//             marginRight: 20
-//         },
-//         {
-//             height: 350,
-//             number: '02',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 10
-//         },
-//         {
-//             height: 320,
-//             number: '03',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 10
-//         },
-//         {
-//             height: 460,
-//             number: '04',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 26
-//         },
-//         {
-//             height: 345,
-//             number: '05',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: -620
-//         },
-//         {
-//             height: 160,
-//             number: '06',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 50
-//         },
-//         {
-//             height: 236,
-//             number: '07',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 40
-//         },
-//         {
-//             height: 150,
-//             number: '08',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-// 			marginRight: 30
-//         },
-//         {
-//             height: 236,
-//             number: '09',
-//             title: 'Ducker',
-//             date: '2022.06',
-//             location: '',
-//             area: '',
-//             designer: '',
-//         },
-//     ]
-// }
 
-// WEB
-const BACK_BUILDING_NUMBER = 5
-const FRONT_BUILDING_NUMBER = 3
-const backBuilding = projectData.data.slice(0, BACK_BUILDING_NUMBER)
-const frontBuilding = projectData.data.slice(BACK_BUILDING_NUMBER, BACK_BUILDING_NUMBER + FRONT_BUILDING_NUMBER)
-
-// MOBILE
-
-export { projectData, BACK_BUILDING_NUMBER, FRONT_BUILDING_NUMBER, backBuilding, frontBuilding }
+export { projectData }
