@@ -41,10 +41,22 @@ const About = () => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 6,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
+			{
+                breakpoint: 1920,
+                settings: {
+                  slidesToShow: 5,
+                }
+            },
+			{
+                breakpoint: 1536,
+                settings: {
+                  slidesToShow: 4,
+                }
+            },
             {
                 breakpoint: 1024,
                 settings: {
