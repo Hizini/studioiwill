@@ -22,17 +22,6 @@ const Projects = (props) => {
 						))
 					}
 				</div>
-                <div className="footer">
-                    <div className="company">
-                        STUDIO I'll_All Rights Reserved.
-                    </div>
-                    <div className="address">
-                        2F_57 Yeonhui-ro Seodaemun-gu, Seoul
-                    </div>
-                    <div className="email">
-                        Studio_iwill@daum.net
-                    </div>
-                </div>
             </div>
         </div>
     );

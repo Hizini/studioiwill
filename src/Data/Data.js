@@ -18,7 +18,7 @@ const projectData = {
             area: '826m² (52.84PY)',
             designer: '김희원, 한덕규',
             style: {
-                height: '260px',
+                height: '150%',
             },
 			mobile_style: {
 				height: '100px',
@@ -33,8 +33,8 @@ const projectData = {
             area: '',
             designer: '',
             style: {
-                height: '350px',
-                marginLeft: '-20px'
+                height: '90%',
+                marginLeft: '-30px'
             },
 			mobile_style: {
 				height: '200px',
@@ -50,7 +50,8 @@ const projectData = {
             area: '',
             designer: '',
             style: {
-                height: '320px',
+                height: '65%',
+                marginLeft: '-40px'
             },
 			mobile_style: {
 				height: '350px',
@@ -67,7 +68,8 @@ const projectData = {
             area: '',
             designer: '',
             style: {
-                height: '460px',
+                height: '80%',
+                marginLeft: '40px'
             },
 			mobile_style: {
 				height: '500px',
@@ -84,6 +86,7 @@ const projectData = {
             designer: '',
             style: {
                 height: '345px',
+                marginLeft: '-30px'
             },
 			mobile_style: {
 				height: '600px',
@@ -137,7 +140,7 @@ const projectData = {
             style: {
                 height: '150px',
                 position: 'absolute',
-                marginLeft: 'calc(40% + 30px)'
+                marginLeft: 'calc(40% - 10px)'
             },
 			mobile_style: {
 				height: '90px',
