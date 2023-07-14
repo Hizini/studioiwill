@@ -42,9 +42,7 @@ const Home = () => {
                     <div className="address">
                         2F_57 Yeonhui-ro Seodaemun-gu, Seoul
                     </div>
-                    <div className="email">
-                        Studio_iwill@daum.net
-                    </div>
+                    <div className="email">Studio_iwill@daum.net</div>
                 </div>
             </div>
         </div>

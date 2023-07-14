@@ -28,17 +28,17 @@
 		height: 100vh;
 		display: flex;
 		flex-direction: column;
+	}
 
-		.footer {
-			font-family: 'NanumSquareNeoBold';
-			display: flex;
-			flex-direction: column;
-			align-items: flex-end;
-			padding: 3vh calc(2vw + 6px) 0;
+	.footer {
+		font-family: 'NanumSquareNeoBold';
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 3vh calc(2vw + 6px) 0;
 
-			.address {
-				margin-top: 11px;
-			}
+		.address {
+			margin-top: 11px;
 		}
 	}
 }
