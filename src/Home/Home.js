@@ -27,7 +27,7 @@ const Home = () => {
                     <div className="logo-area">
                         <img
                             onClick={() => navigate("about")}
-                            src="/images/studioiwill-main-logo.png"
+                            src="images/studioiwill-main-logo.png"
                             alt=""
                         />
                     </div>

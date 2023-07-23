@@ -87,7 +87,7 @@ const Detail = props => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickPrvBtn}
-                                    src="/images/left-arrow.svg"
+                                    src="images/left-arrow.svg"
                                     alt=""
                                 />
                             </div>
@@ -95,7 +95,7 @@ const Detail = props => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickNextBtn}
-                                    src="/images/right-arrow.svg"
+                                    src="images/right-arrow.svg"
                                     alt=""
                                 />
                             </div>

@@ -20,12 +20,12 @@ const Home = () => {
             <div className="mobile-home-header">
                 <img
                     className="logo"
-                    src="/images/studioiwill-logo.svg"
+                    src="images/studioiwill-logo.svg"
                     alt="logo"
                 />
                 <img
                     className="menu"
-                    src="/images/menu.webp"
+                    src="images/menu.webp"
                     alt="menu"
                     onClick={handleClickMenu}
                 />
@@ -56,10 +56,10 @@ const Home = () => {
             >
                 <div className="mobile-menu-root-container">
                     <div className="close" onClick={handleClickMenu}>
-                        <img src="/images/close.svg" alt="close" />
+                        <img src="images/close.svg" alt="close" />
                     </div>
                     <div className="logo">
-                        <img src="/images/studioiwill-logo.svg" alt="logo" />
+                        <img src="images/studioiwill-logo.svg" alt="logo" />
                     </div>
                     <div className="border" />
                     <div className="menu-area">
@@ -71,12 +71,12 @@ const Home = () => {
                         <div className="footer-logo-area">
                             <img
                                 className="footer-logo"
-                                src="/images/studioiwill-logo3.svg"
+                                src="images/studioiwill-logo3.svg"
                                 alt="logo"
                             />
                             <img
                                 className="footer-instagram"
-                                src="/images/instagram-logo.webp"
+                                src="images/instagram-logo.webp"
                                 alt=""
                             />
                         </div>

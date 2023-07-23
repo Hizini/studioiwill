@@ -6,22 +6,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const previewImges = [
-    { src: "/images/about/001.jpg" },
-    { src: "/images/about/002.jpg" },
-    { src: "/images/about/003.jpg" },
-    { src: "/images/about/004.jpg" },
-    { src: "/images/about/005.jpg" },
-    { src: "/images/about/006.gif" },
-    { src: "/images/about/007.jpg" },
-    { src: "/images/about/008.jpg" },
-    { src: "/images/about/009.jpg" },
-    { src: "/images/about/010.jpg" },
-    { src: "/images/about/011.jpg" },
+    { src: "images/about/001.jpg" },
+    { src: "images/about/002.jpg" },
+    { src: "images/about/003.jpg" },
+    { src: "images/about/004.jpg" },
+    { src: "images/about/005.jpg" },
+    { src: "images/about/006.gif" },
+    { src: "images/about/007.jpg" },
+    { src: "images/about/008.jpg" },
+    { src: "images/about/009.jpg" },
+    { src: "images/about/010.jpg" },
+    { src: "images/about/011.jpg" },
 ];
 
 const About = () => {
     const [previewSrc, setPreviewSrc] = useState(
-        "/images/about/001.jpg"
+        "images/about/001.jpg"
     );
 
     const slickRef = useRef();
@@ -106,7 +106,7 @@ const About = () => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickPrvBtn}
-                                    src="/images/left-arrow.svg"
+                                    src="images/left-arrow.svg"
                                     alt=""
                                 />
                             </div>
@@ -114,7 +114,7 @@ const About = () => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickNextBtn}
-                                    src="/images/right-arrow.svg"
+                                    src="images/right-arrow.svg"
                                     alt=""
                                 />
                             </div>
@@ -125,7 +125,7 @@ const About = () => {
                     <div className="about-logo-area">
                         <img
                             className="logo"
-                            src="/images/studioiwill-logo2.svg"
+                            src="images/studioiwill-logo2.svg"
                             alt=""
                         />
                     </div>
