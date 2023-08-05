@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const previewImges = [
-    { src: "images/about/001.jpg" },
+    { src: "./images/about/001.jpg" },
     { src: "images/about/002.jpg" },
     { src: "images/about/003.jpg" },
     { src: "images/about/004.jpg" },
