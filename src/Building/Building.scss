@@ -50,7 +50,7 @@
         border-right: 3px solid black;
 
         &.checked {
-			background: linear-gradient(black 25%, white 25% 50%, black 50% 75%, white 75% 100%);
+			background: linear-gradient(black 10%, white 10% 20%, black 20% 30%, white 30% 40%, black 40% 50%, white 50% 60%, black 60% 70%, white 70% 80%, black 80% 90%, white 90% 100%);
             background-size: 100% 30px;
         }
     }

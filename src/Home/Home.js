@@ -24,26 +24,28 @@ const Home = () => {
                         setShowDetail={setShowDetail}
                     />
                 ) : (
-                    <div className="logo-area">
-                        <img
-                            onClick={() => navigate("about")}
-                            src="images/studioiwill-main-logo.png"
-                            alt=""
-                        />
-                    </div>
+                    <>
+                        <div className="logo-area">
+                            <img
+                                onClick={() => navigate("about")}
+                                src="/images/studioiwill-main-logo.png"
+                                alt=""
+                            />
+                        </div>
+                        <div className="footer">
+                            <div className="company">
+                                STUDIO I'll_All Rights Reserved.
+                            </div>
+                            <div className="address">
+                                2F_57 Yeonhui-ro Seodaemun-gu, Seoul
+                            </div>
+                            <div className="email">Studio_iwill@daum.net</div>
+                        </div>
+                    </>
                 )}
             </div>
             <div className="right">
                 <Projects showBuildingDetail={showBuildingDetail} />
-                <div className="footer">
-                    <div className="company">
-                        STUDIO I'll_All Rights Reserved.
-                    </div>
-                    <div className="address">
-                        2F_57 Yeonhui-ro Seodaemun-gu, Seoul
-                    </div>
-                    <div className="email">Studio_iwill@daum.net</div>
-                </div>
             </div>
         </div>
     );
