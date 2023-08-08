@@ -4,24 +4,25 @@ import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { PUBLIC_IMG_PATH } from '../js/util';
 
 const previewImges = [
-    { src: "./images/about/001.jpg" },
-    { src: "images/about/002.jpg" },
-    { src: "images/about/003.jpg" },
-    { src: "images/about/004.jpg" },
-    { src: "images/about/005.jpg" },
-    { src: "images/about/006.gif" },
-    { src: "images/about/007.jpg" },
-    { src: "images/about/008.jpg" },
-    { src: "images/about/009.jpg" },
-    { src: "images/about/010.jpg" },
-    { src: "images/about/011.jpg" },
+    { src: `${PUBLIC_IMG_PATH}/about/001.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/002.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/003.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/004.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/005.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/006.gif` },
+    { src: `${PUBLIC_IMG_PATH}/about/007.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/008.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/009.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/010.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/about/011.jpg` },
 ];
 
 const About = () => {
     const [previewSrc, setPreviewSrc] = useState(
-        "images/about/001.jpg"
+        `${PUBLIC_IMG_PATH}/about/001.jpg`
     );
 
     const slickRef = useRef();
@@ -106,7 +107,7 @@ const About = () => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickPrvBtn}
-                                    src="images/left-arrow.svg"
+                                    src={`${PUBLIC_IMG_PATH}/left-arrow.svg`}
                                     alt=""
                                 />
                             </div>
@@ -114,7 +115,7 @@ const About = () => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickNextBtn}
-                                    src="images/right-arrow.svg"
+                                    src={`${PUBLIC_IMG_PATH}/right-arrow.svg`}
                                     alt=""
                                 />
                             </div>
@@ -125,7 +126,7 @@ const About = () => {
                     <div className="about-logo-area">
                         <img
                             className="logo"
-                            src="images/studioiwill-logo2.svg"
+                            src={`${PUBLIC_IMG_PATH}/studioiwill-logo2.svg`}
                             alt=""
                         />
                     </div>

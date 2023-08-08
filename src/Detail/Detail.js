@@ -6,6 +6,7 @@ import { projectData } from "../Data/Data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { PUBLIC_IMG_PATH } from '../js/util';
 
 const previewImges = [
     {
@@ -87,7 +88,7 @@ const Detail = props => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickPrvBtn}
-                                    src="images/left-arrow.svg"
+                                    src={`${PUBLIC_IMG_PATH}/left-arrow.svg`}
                                     alt=""
                                 />
                             </div>
@@ -95,7 +96,7 @@ const Detail = props => {
                                 <img
                                     className="slider-btn-img"
                                     onClick={handleClickNextBtn}
-                                    src="images/right-arrow.svg"
+                                    src={`${PUBLIC_IMG_PATH}/right-arrow.svg`}
                                     alt=""
                                 />
                             </div>

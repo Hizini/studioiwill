@@ -3,6 +3,7 @@ import Projects from "../Projects/Projects";
 import Detail from "../Detail/Detail";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { PUBLIC_IMG_PATH } from "../js/util";
 
 const Home = () => {
     const [showDetail, setShowDetail] = useState(false);
@@ -28,7 +29,7 @@ const Home = () => {
                         <div className="logo-area">
                             <img
                                 onClick={() => navigate("about")}
-                                src={`${process.env.PUBLIC_URL}/images/studioiwill-main-logo.png`}
+                                src={`${PUBLIC_IMG_PATH}/studioiwill-main-logo.png`}
                                 alt=""
                             />
                         </div>
