@@ -40,10 +40,8 @@ const About = () => {
 
     const settings = {
         dots: false,
-        infinite: true,
-        // infinite: false,
+        infinite: false,
         speed: 500,
-        // slidesToShow: 6,
 		slidesToShow: 1,
 		variableWidth: true,
         slidesToScroll: 1,
