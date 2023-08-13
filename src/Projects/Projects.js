@@ -7,7 +7,7 @@ const Projects = ({ showBuildingDetail }) => {
     const buildingRef = useRef(null);
     // const interSectRef = useRef(null);
     // const [arrLength, setArrLength] = useState(1);
-	// const [compHeight, setCompHeight] = useState();
+    // const [compHeight, setCompHeight] = useState();
     // const options = {
     //     root: null,
     //     rootMargin: "20px",
@@ -31,10 +31,9 @@ const Projects = ({ showBuildingDetail }) => {
     // }, [handleObserver]);
 
     useEffect(() => {
-        if (buildingRef.current) {
-            buildingRef.current.scrollTop = 0;
-			// setCompHeight(buildingRef.current.offsetHeight)
-        }
+		window.onload = () => {
+			buildingRef.current?.scrollIntoView({behavior: "smooth", block: 'end'})
+		  };
     }, []);
 
     return (
@@ -60,7 +59,7 @@ const Projects = ({ showBuildingDetail }) => {
                         </div>
                     );
                 })} */}
-				                <div className="studioiwill-back" ref={buildingRef}>
+                <div className="studioiwill-back" ref={buildingRef}>
                     {projectData.data.map((data, index) => (
                         <Building
                             showBuildingDetail={showBuildingDetail}
