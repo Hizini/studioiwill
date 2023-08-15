@@ -8,6 +8,10 @@
 	width: 100%;
 
     .preview-area {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
         width: 100%;
         margin-top: 20px;
         // border-bottom: 0.5px solid #707070;
@@ -22,7 +26,7 @@
     
         .preview-slider-area {
             margin-top: 10px;
-            width: 100%;
+            width: calc(50vh * 3 / 2);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -68,10 +72,6 @@
 		&.no-image {
 			width: 100%;
 			height: calc(62vh + 12px);
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
 			
 			.no-image {
 				width: 70px;

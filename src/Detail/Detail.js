@@ -51,12 +51,12 @@ const Detail = (props) => {
         variableWidth: true,
         arrows: false,
     };
-	
+
     return (
         <div className="studioiwill-detail-root-container">
             <Nav setShowDetail={setShowDetail} />
             <div>
-                {previewSrc && detailImges[index] ? (
+                {detailImges[index] && detailImges[index].length > 0 ? (
                     <div className="preview-area">
                         <img className="preview" src={previewSrc} alt="" />
                         <div className="preview-slider-area">
