@@ -32,6 +32,7 @@ const Detail = (props) => {
     useEffect(() => {
         if (detailImges[index] && detailImges[index].length > 0)
             setPreviewSrc(detailImges[index][0]?.src ?? null);
+		else setPreviewSrc(null)
     }, [index]);
 
     const handleClickPrvBtn = () => slickRef.current.slickPrev();
@@ -50,12 +51,12 @@ const Detail = (props) => {
         variableWidth: true,
         arrows: false,
     };
-
+	
     return (
         <div className="studioiwill-detail-root-container">
             <Nav setShowDetail={setShowDetail} />
             <div>
-                {previewSrc && (
+                {previewSrc && detailImges[index] ? (
                     <div className="preview-area">
                         <img className="preview" src={previewSrc} alt="" />
                         <div className="preview-slider-area">
@@ -91,6 +92,15 @@ const Detail = (props) => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                ) : (
+                    <div className="preview-area no-image">
+                        <img
+                            className="no-image"
+                            src={`${PUBLIC_IMG_PATH}/noImg.png`}
+                            alt=""
+                        />
+                        <div className="no-image-text">이미지 준비중</div>
                     </div>
                 )}
                 <hr className="divider" />

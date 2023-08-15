@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
 	height: 100%;
+	width: 100%;
 
     .preview-area {
         width: 100%;
@@ -63,6 +64,26 @@
                 }
             }
         }
+
+		&.no-image {
+			width: 100%;
+			height: calc(62vh + 12px);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			
+			.no-image {
+				width: 70px;
+				height: 70px;
+			}
+
+			.no-image-text {
+				font-family: NanumSquareNeo;
+                font-size: 12px;
+                color: #707070;
+			}
+		}
     }
 	.divider {
 		margin: 20px 0;
