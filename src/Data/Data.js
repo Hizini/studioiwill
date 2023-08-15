@@ -1,7 +1,10 @@
+import { PUBLIC_IMG_PATH } from "../js/util";
+
 const data01 = {
     number: "01",
-    title: "GRAY CITY 신사옥",
+    title: "STUDIO I’ll",
     date: "2022.09",
+	sub: "Office",
     location: "서울시 송파구 방이동 168 - 5",
     area: "826m² (52.84PY)",
     designer: "김희원, 한덕규",
@@ -9,8 +12,9 @@ const data01 = {
 
 const data02 = {
     number: "02",
-    title: "Ducker2",
+    title: "Gray City\ncompany building",
     date: "2022.06",
+	sub: "SMP, hair shop, Office",
     location: "",
     area: "",
     designer: "",
@@ -90,6 +94,7 @@ const data09 = {
  * @returns
  */
 const projectData = {
+	repeat: 5,
     data: [
         // 1
         {
@@ -207,7 +212,7 @@ const projectData = {
             ...data01,
             style: {
                 height: "190%",
-                marginLeft: "-90%",
+                marginLeft: "-95%",
             },
             mobile_style: {
                 height: "100px",
@@ -319,7 +324,7 @@ const projectData = {
             ...data01,
             style: {
                 height: "260%",
-                marginLeft: "-20%",
+                marginLeft: "-24%",
             },
             mobile_style: {
                 height: "100px",
@@ -431,7 +436,7 @@ const projectData = {
             ...data01,
             style: {
                 height: "350%",
-                marginLeft: "-30%",
+                marginLeft: "-32%",
             },
             mobile_style: {
                 height: "100px",
@@ -630,4 +635,19 @@ const projectData = {
     ],
 };
 
-export { projectData };
+const detailImges = {
+    '0': [
+        { src: `${PUBLIC_IMG_PATH}/project0/001.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/002.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/003.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/004.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/005.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/006.gif` },
+        { src: `${PUBLIC_IMG_PATH}/project0/007.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/008.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/009.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/010.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project0/011.jpg` },
+    ],
+};
+export { projectData, detailImges };

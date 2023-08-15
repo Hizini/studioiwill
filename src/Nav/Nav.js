@@ -9,7 +9,7 @@ const Nav = (props) => {
         <>
             {
                 setShowDetail
-                    ? <div className='nav-logo-area-in-detail' onClick={() => setShowDetail(false)}><img className='logo' src={`${PUBLIC_IMG_PATH}/studioiwill-small-logo.png`} alt='' /></div>
+                    ? <div className='nav-logo-area-in-detail' onClick={() => setShowDetail(false)}><img className='logo' src={`${PUBLIC_IMG_PATH}/studioiwill-main-logo.png`} alt='' /></div>
                     : <div className='nav-container'>
                         <NavLink to={'/'} className='nav-logo-area'><img className='logo' src={`${PUBLIC_IMG_PATH}/studioiwill-small-logo.png`} alt='' /></NavLink>
                         <div className='menu-area'>

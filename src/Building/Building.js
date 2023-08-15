@@ -6,7 +6,8 @@ const Building = ({
     style,
     number,
     title,
-    date,
+	date,
+	sub,
     status,
     index,
     // 빌딩 클릭 이벤트
@@ -55,9 +56,9 @@ const Building = ({
             ref={ref}
         >
             <div className="text-area">
-                <div className="number">{number}</div>
+                {/* <div className="number">{number}</div> */}
+				<div className="sub">{sub}</div>
                 <div className="title">{title}</div>
-                <div className="date">{date}</div>
             </div>
             <div
                 className={`side ${isChecked ? "checked" : ""}`}

@@ -2,37 +2,21 @@ import "./Detail.scss";
 import Nav from "../Nav/Nav";
 import { useLocation, useNavigate } from "react-router-dom";
 import React, { useEffect, useRef, useState } from "react";
-import { projectData } from "../Data/Data";
+import { projectData, detailImges } from "../Data/Data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { PUBLIC_IMG_PATH } from '../js/util';
+import { PUBLIC_IMG_PATH } from "../js/util";
 
-const previewImges = [
-    {
-        src: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLLREg%2FbtrbhYLdx4M%2Fw3BWXIjm185YfkGITrU9HK%2Fimg.jpg",
-    },
-    {
-        src: "https://pbs.twimg.com/media/FIbhNioakAAc_V0?format=jpg&name=medium",
-    },
-    {
-        src: "https://pbs.twimg.com/media/FdFxDv2aEAMqRfK?format=jpg&name=small",
-    },
-    {
-        src: "https://pbs.twimg.com/media/Ezq61WWVcAESp7b.jpg",
-    },
-];
-
-const Detail = props => {
+const Detail = (props) => {
     // const { pathname } = window.location;
     // const location = useLocation();
     // const navigate = useNavigate();
-    const { index, setShowDetail } = props;
+    let { index, setShowDetail } = props;
     const detailArr = projectData.data;
-    const [previewSrc, setPreviewSrc] = useState(
-        "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLLREg%2FbtrbhYLdx4M%2Fw3BWXIjm185YfkGITrU9HK%2Fimg.jpg"
-    );
-
+    const count = detailArr.length / projectData.repeat;
+    index = index % count;
+    const [previewSrc, setPreviewSrc] = useState(null);
     const slickRef = useRef();
 
     // useEffect(() => {
@@ -45,6 +29,10 @@ const Detail = props => {
     //     if (!location.state) return navigate("/");
     //     index = location.state.index;
     // }
+    useEffect(() => {
+        if (detailImges[index] && detailImges[index].length > 0)
+            setPreviewSrc(detailImges[index][0]?.src ?? null);
+    }, [index]);
 
     const handleClickPrvBtn = () => slickRef.current.slickPrev();
     const handleClickNextBtn = () => slickRef.current.slickNext();
@@ -65,49 +53,55 @@ const Detail = props => {
 
     return (
         <div className="studioiwill-detail-root-container">
-            <Nav setShowDetail={setShowDetail}/>
-            <div >
-                <div className="preview-area">
-                    <img className="preview" src={previewSrc} alt="" />
-                    <div className="preview-slider-area">
-                        <div className="preview-slider">
-                            <Slider {...settings} ref={slickRef}>
-                                {previewImges.map((img, i) => (
+            <Nav setShowDetail={setShowDetail} />
+            <div>
+                {previewSrc && (
+                    <div className="preview-area">
+                        <img className="preview" src={previewSrc} alt="" />
+                        <div className="preview-slider-area">
+                            <div className="preview-slider">
+                                <Slider {...settings} ref={slickRef}>
+                                    {detailImges[index].map((img, i) => (
+                                        <img
+                                            className="preview-img"
+                                            onClick={() =>
+                                                handleClickPreview(img.src)
+                                            }
+                                            src={img.src}
+                                            alt=""
+                                            key={i}
+                                        />
+                                    ))}
+                                </Slider>
+                                <div className="detail-slider-btn prev">
                                     <img
-                                        className="preview-img"
-                                        onClick={() =>
-                                            handleClickPreview(img.src)
-                                        }
-                                        src={img.src}
+                                        className="slider-btn-img"
+                                        onClick={handleClickPrvBtn}
+                                        src={`${PUBLIC_IMG_PATH}/left-arrow.svg`}
                                         alt=""
-                                        key={i}
                                     />
-                                ))}
-                            </Slider>
-                            <div className="detail-slider-btn prev">
-                                <img
-                                    className="slider-btn-img"
-                                    onClick={handleClickPrvBtn}
-                                    src={`${PUBLIC_IMG_PATH}/left-arrow.svg`}
-                                    alt=""
-                                />
-                            </div>
-                            <div className="detail-slider-btn next">
-                                <img
-                                    className="slider-btn-img"
-                                    onClick={handleClickNextBtn}
-                                    src={`${PUBLIC_IMG_PATH}/right-arrow.svg`}
-                                    alt=""
-                                />
+                                </div>
+                                <div className="detail-slider-btn next">
+                                    <img
+                                        className="slider-btn-img"
+                                        onClick={handleClickNextBtn}
+                                        src={`${PUBLIC_IMG_PATH}/right-arrow.svg`}
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                )}
+                <hr className="divider" />
                 <div className="detail-area">
                     <div className="project-area">
-                        <div className="project">PROJECT</div>
                         <div className="project-title">
-                            {detailArr[index].title}
+                            {/* {detailArr[index].title} */}
+                            STUDIO I'II
+                        </div>
+                        <div className="project">
+                            I'll make anything for you
                         </div>
                     </div>
                     <div className="project-info">

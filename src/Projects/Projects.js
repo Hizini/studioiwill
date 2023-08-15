@@ -66,7 +66,8 @@ const Projects = ({ showBuildingDetail }) => {
                             style={data.style}
                             number={data.number}
                             title={data.title}
-                            date={data.date}
+							date={data.date}
+							sub={data.sub}
                             index={index}
                             key={index}
                         />

@@ -7,22 +7,22 @@ import "slick-carousel/slick/slick-theme.css";
 import { PUBLIC_IMG_PATH } from '../js/util';
 
 const previewImges = [
-    { src: `${PUBLIC_IMG_PATH}/about/001.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/002.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/003.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/004.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/005.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/006.gif` },
-    { src: `${PUBLIC_IMG_PATH}/about/007.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/008.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/009.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/010.jpg` },
-    { src: `${PUBLIC_IMG_PATH}/about/011.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/001.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/002.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/003.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/004.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/005.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/006.gif` },
+    { src: `${PUBLIC_IMG_PATH}/project0/007.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/008.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/009.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/010.jpg` },
+    { src: `${PUBLIC_IMG_PATH}/project0/011.jpg` },
 ];
 
 const About = () => {
     const [previewSrc, setPreviewSrc] = useState(
-        `${PUBLIC_IMG_PATH}/about/001.jpg`
+        `${PUBLIC_IMG_PATH}/project0/001.jpg`
     );
 
     const slickRef = useRef();

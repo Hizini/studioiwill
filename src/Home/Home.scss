@@ -3,7 +3,7 @@
 	height: 100vh;
 
 	.left {
-		width: 50%;
+		width: 48%;
 		height: 100vh;
 		// height: calc(94vh - 70px);
 		display: flex;
@@ -26,7 +26,7 @@
 	}
 
 	.right {
-		width: 50%;
+		width: 52%;
 		height: 100vh;
 		display: flex;
 		flex-direction: column;
@@ -34,15 +34,23 @@
 
 	.footer {
 		position: absolute;
-		bottom: 0;
+		bottom: 12px;
+		left: 14px;
 		font-family: 'NanumSquareNeoBold';
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		padding: 3vh calc(2vw + 6px) 0;
+		font-size: 12px;
 
 		.address {
 			margin-top: 11px;
+		}
+
+		.instagram {
+			img {
+width: 18px;
+height: 18px;
+			}
 		}
 	}
 }
