@@ -22,8 +22,9 @@ const data02 = {
 
 const data03 = {
     number: "03",
-    title: "Ducker3",
+    title: "BLUE HOUSE",
     date: "2022.06",
+	sub: "smp, beauty shop",
     location: "",
     area: "",
     designer: "",
@@ -31,17 +32,9 @@ const data03 = {
 
 const data04 = {
     number: "04",
-    title: "Ducker4",
+    title: "WHITE HOUSE",
     date: "2022.06",
-    location: "",
-    area: "",
-    designer: "",
-};
-
-const data06 = {
-    number: "06",
-    title: "Ducker6",
-    date: "2022.06",
+	sub: "smp, Barber Shop",
     location: "",
     area: "",
     designer: "",
@@ -49,8 +42,19 @@ const data06 = {
 
 const data05 = {
     number: "05",
-    title: "Ducker5",
+    title: "BLOW HAIR",
     date: "2022.06",
+	sub: "Hair salon",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data06 = {
+    number: "06",
+    title: "INNOCELLGENE",
+    date: "2022.06",
+	sub: "Office",
     location: "",
     area: "",
     designer: "",
@@ -58,8 +62,9 @@ const data05 = {
 
 const data07 = {
     number: "07",
-    title: "Ducker7",
+    title: "INCHEON SONGDO\n- 60PY",
     date: "2022.06",
+	sub: "House",
     location: "",
     area: "",
     designer: "",
@@ -67,8 +72,9 @@ const data07 = {
 
 const data08 = {
     number: "08",
-    title: "Ducker8",
+    title: "GANGHWA DO\n- 60PY",
     date: "2022.06",
+	sub: "House",
     location: "",
     area: "",
     designer: "",
@@ -76,8 +82,69 @@ const data08 = {
 
 const data09 = {
     number: "09",
-    title: "Ducker9",
+    title: "OA CAFE",
     date: "2022.06",
+	sub: "Cafe",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data10 = {
+    number: "10",
+    title: "NI. A. AM",
+    date: "2022.06",
+	sub: "Sake Bar",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data11 = {
+    number: "11",
+    title: "DAECHI 897-12\nBUILDING",
+    date: "2022.06",
+	sub: "New-built",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data12 = {
+    number: "12",
+    title: "DAECHI 996-7\nBUILDING",
+    date: "2022.06",
+	sub: "New-built",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data13 = {
+    number: "13",
+    title: "YEOKSAM 695-8\nBUILDING",
+    date: "2022.06",
+	sub: "Renovation",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data14 = {
+    number: "14",
+    title: "JAMWON 11-5\nBUILDING",
+    date: "2022.06",
+	sub: "Renovation",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data15 = {
+    number: "15",
+    title: "GYESAN TOWN HOUSE",
+    date: "2022.06",
+	sub: "housing project",
     location: "",
     area: "",
     designer: "",
@@ -94,13 +161,13 @@ const data09 = {
  * @returns
  */
 const projectData = {
-	repeat: 5,
+	repeat: 4,
     data: [
         // 1
         {
             ...data01,
             style: {
-                height: "90%",
+                height: "94%",
             },
             mobile_style: {
                 height: "100px",
@@ -110,7 +177,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "78%",
+                height: "82%",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -121,7 +188,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "65%",
+                height: "69%",
                 marginLeft: "-40px",
             },
             mobile_style: {
@@ -133,7 +200,7 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "80%",
+                height: "84%",
                 marginLeft: "40px",
             },
             mobile_style: {
@@ -142,10 +209,10 @@ const projectData = {
                 marginLeft: "40%",
             },
         },
-        {
+		{
             ...data05,
             style: {
-                height: "345px",
+                height: "79%",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -156,6 +223,71 @@ const projectData = {
         },
         {
             ...data06,
+            style: {
+                height: "64%",
+                position: "absolute",
+                marginLeft: "40px",
+            },
+            mobile_style: {
+                height: "700px",
+                position: "absolute",
+                marginLeft: "30%",
+            },
+        },
+        {
+            ...data07,
+            style: {
+                height: "54%",
+                position: "absolute",
+                marginLeft: "20%",
+            },
+            mobile_style: {
+                height: "450px",
+                position: "absolute",
+                marginLeft: "25%",
+            },
+        },
+        {
+            ...data08,
+            style: {
+                height: "59%",
+                position: "absolute",
+                marginLeft: "calc(50% - 30px)",
+            },
+            mobile_style: {
+                height: "90px",
+                position: "absolute",
+                marginLeft: "calc(30% + 30px)",
+            },
+        },
+        {
+            ...data09,
+            style: {
+                height: "66%",
+                position: "absolute",
+                marginLeft: "calc(65% + 30px)",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data10,
+            style: {
+                height: "47%",
+                position: "absolute",
+                marginLeft: "55%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+        {
+            ...data11,
             style: {
                 height: "145px",
                 position: "absolute",
@@ -168,9 +300,9 @@ const projectData = {
             },
         },
         {
-            ...data07,
+            ...data12,
             style: {
-                height: "236px",
+                height: "246px",
                 position: "absolute",
                 marginLeft: "calc(20% + 30px)",
             },
@@ -181,7 +313,7 @@ const projectData = {
             },
         },
         {
-            ...data08,
+            ...data13,
             style: {
                 height: "150px",
                 position: "absolute",
@@ -194,11 +326,25 @@ const projectData = {
             },
         },
         {
-            ...data09,
+            ...data14,
             style: {
-                height: "222px",
+                height: "262px",
                 position: "absolute",
                 marginLeft: "calc(60% + 30px)",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+
+		{
+            ...data15,
+            style: {
+                height: "190px",
+                position: "absolute",
+                marginLeft: "70%",
             },
             mobile_style: {
                 height: "250px",
@@ -222,7 +368,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "170%",
+                height: "176%",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -233,7 +379,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "165%",
+                height: "180%",
                 marginLeft: "30px",
             },
             mobile_style: {
@@ -245,8 +391,8 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "180%",
-                marginLeft: "-70px",
+                height: "193%",
+                marginLeft: "40px",
             },
             mobile_style: {
                 height: "500px",
@@ -257,8 +403,8 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "130%",
-                marginLeft: "-70%",
+                height: "160%",
+                marginLeft: "-80%",
             },
             mobile_style: {
                 height: "600px",
@@ -269,9 +415,9 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "150%",
+                height: "140%",
                 position: "absolute",
-                marginLeft: "25%",
+                marginLeft: "20%",
             },
             mobile_style: {
                 height: "700px",
@@ -282,7 +428,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "134%",
+                height: "164%",
                 position: "absolute",
                 marginLeft: "calc(30% + 50px)",
             },
@@ -295,7 +441,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "120%",
+                height: "150%",
                 position: "absolute",
                 marginLeft: "calc(50% - 10px)",
             },
@@ -308,9 +454,88 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "115%",
+                height: "165%",
                 position: "absolute",
                 marginLeft: "calc(60% + 30px)",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data10,
+            style: {
+                height: "147%",
+                position: "absolute",
+                marginLeft: "70%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+        {
+            ...data11,
+            style: {
+                height: "120%",
+                position: "absolute",
+                marginLeft: "60px",
+            },
+            mobile_style: {
+                height: "700px",
+                position: "absolute",
+                marginLeft: "30%",
+            },
+        },
+        {
+            ...data12,
+            style: {
+                height: "114%",
+                position: "absolute",
+                marginLeft: "calc(20% + 30px)",
+            },
+            mobile_style: {
+                height: "450px",
+                position: "absolute",
+                marginLeft: "25%",
+            },
+        },
+        {
+            ...data13,
+            style: {
+                height: "134%",
+                position: "absolute",
+                marginLeft: "calc(40% - 10px)",
+            },
+            mobile_style: {
+                height: "90px",
+                position: "absolute",
+                marginLeft: "calc(30% + 30px)",
+            },
+        },
+        {
+            ...data14,
+            style: {
+                height: "118%",
+                position: "absolute",
+                marginLeft: "calc(55% - 30px)",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+
+		{
+            ...data15,
+            style: {
+                height: "110%",
+                position: "absolute",
+                marginLeft: "68%",
             },
             mobile_style: {
                 height: "250px",
@@ -323,7 +548,7 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "260%",
+                height: "280%",
                 marginLeft: "-24%",
             },
             mobile_style: {
@@ -334,7 +559,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "280%",
+                height: "300%",
                 marginLeft: "-40px",
             },
             mobile_style: {
@@ -345,7 +570,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "270%",
+                height: "288%",
                 marginLeft: "40px",
             },
             mobile_style: {
@@ -357,7 +582,7 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "285%",
+                height: "300%",
                 marginLeft: "-70px",
             },
             mobile_style: {
@@ -369,7 +594,7 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "230%",
+                height: "260%",
                 marginLeft: "-60%",
             },
             mobile_style: {
@@ -381,7 +606,7 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "220%",
+                height: "250%",
                 position: "absolute",
                 marginLeft: "calc(40% - 30px)",
             },
@@ -394,7 +619,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "205%",
+                height: "235%",
                 position: "absolute",
                 marginLeft: "calc(40% + 30px)",
             },
@@ -407,7 +632,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "235%",
+                height: "265%",
                 position: "absolute",
                 marginLeft: "53%",
             },
@@ -420,9 +645,86 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "226%",
+                height: "256%",
                 position: "absolute",
                 marginLeft: "calc(65% + 30px)",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data10,
+            style: {
+                height: "236%",
+                position: "absolute",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data11,
+            style: {
+                height: "226%",
+                position: "absolute",
+                marginLeft: "12%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data12,
+            style: {
+                height: "216%",
+                position: "absolute",
+                marginLeft: "26%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data13,
+            style: {
+                height: "196%",
+                position: "absolute",
+                marginLeft: "39%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data14,
+            style: {
+                height: "216%",
+                position: "absolute",
+                marginLeft: "50%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+        },
+		{
+            ...data15,
+            style: {
+                height: "232%",
+                position: "absolute",
+                marginLeft: "63%",
             },
             mobile_style: {
                 height: "250px",
@@ -435,7 +737,7 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "350%",
+                height: "380%",
                 marginLeft: "-32%",
             },
             mobile_style: {
@@ -446,7 +748,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "380%",
+                height: "410%",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -457,7 +759,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "346%",
+                height: "376%",
                 marginLeft: "65px",
             },
             mobile_style: {
@@ -468,7 +770,7 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "375%",
+                height: "405%",
                 marginLeft: "-50px",
             },
             mobile_style: {
@@ -479,7 +781,7 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "320%",
+                height: "368%",
                 marginLeft: "-76%",
             },
             mobile_style: {
@@ -490,7 +792,7 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "304%",
+                height: "354%",
                 marginLeft: "-28px",
             },
             mobile_style: {
@@ -501,7 +803,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "318%",
+                height: "346%",
                 marginLeft: "-28px",
             },
             mobile_style: {
@@ -512,7 +814,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "330%",
+                height: "360%",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -523,7 +825,7 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "300%",
+                height: "340%",
                 marginLeft: "-134px",
             },
             mobile_style: {
@@ -531,12 +833,10 @@ const projectData = {
                 marginLeft: "10px",
             },
         },
-
-        // 5
-        {
-            ...data01,
+		{
+            ...data10,
             style: {
-                height: "450%",
+                height: "332%",
                 marginLeft: "-80%",
             },
             mobile_style: {
@@ -544,87 +844,10 @@ const projectData = {
                 marginLeft: "10px",
             },
         },
-        {
-            ...data02,
+		{
+            ...data11,
             style: {
-                height: "480%",
-                marginLeft: "-30px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data03,
-            style: {
-                height: "446%",
-                marginLeft: "65px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data04,
-            style: {
-                height: "475%",
-                marginLeft: "-50px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data05,
-            style: {
-                height: "420%",
-                marginLeft: "-76%",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data06,
-            style: {
-                height: "404%",
-                marginLeft: "-28px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data07,
-            style: {
-                height: "418%",
-                marginLeft: "-28px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data08,
-            style: {
-                height: "430%",
-                marginLeft: "-30px",
-            },
-            mobile_style: {
-                height: "100px",
-                marginLeft: "10px",
-            },
-        },
-        {
-            ...data09,
-            style: {
-                height: "400%",
+                height: "314%",
                 marginLeft: "-134px",
             },
             mobile_style: {
@@ -632,6 +855,150 @@ const projectData = {
                 marginLeft: "10px",
             },
         },
+		{
+            ...data12,
+            style: {
+                height: "320%",
+                marginLeft: "22px",
+            },
+            mobile_style: {
+                height: "100px",
+                marginLeft: "10px",
+            },
+        },
+        {
+            ...data13,
+            style: {
+                height: "332%",
+                marginLeft: "-50px",
+            },
+            mobile_style: {
+                height: "100px",
+                marginLeft: "10px",
+            },
+        },
+		{
+            ...data14,
+            style: {
+                height: "320%",
+                marginLeft: "-80px",
+            },
+            mobile_style: {
+                height: "100px",
+                marginLeft: "10px",
+            },
+        },
+		{
+            ...data15,
+            style: {
+                height: "310%",
+                marginLeft: "-114px",
+            },
+            mobile_style: {
+                height: "100px",
+                marginLeft: "10px",
+            },
+        },
+        // 5
+        // {
+        //     ...data01,
+        //     style: {
+        //         height: "450%",
+        //         marginLeft: "-80%",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data02,
+        //     style: {
+        //         height: "480%",
+        //         marginLeft: "-30px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data03,
+        //     style: {
+        //         height: "446%",
+        //         marginLeft: "65px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data04,
+        //     style: {
+        //         height: "475%",
+        //         marginLeft: "-50px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data05,
+        //     style: {
+        //         height: "420%",
+        //         marginLeft: "-76%",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data06,
+        //     style: {
+        //         height: "404%",
+        //         marginLeft: "-28px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data07,
+        //     style: {
+        //         height: "418%",
+        //         marginLeft: "-28px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data08,
+        //     style: {
+        //         height: "430%",
+        //         marginLeft: "-30px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
+        // {
+        //     ...data09,
+        //     style: {
+        //         height: "400%",
+        //         marginLeft: "-134px",
+        //     },
+        //     mobile_style: {
+        //         height: "100px",
+        //         marginLeft: "10px",
+        //     },
+        // },
     ],
 };
 

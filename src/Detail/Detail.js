@@ -44,7 +44,7 @@ const Detail = (props) => {
 
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -133,12 +133,12 @@ const Detail = (props) => {
                                 {detailArr[index].area}
                             </div>
                         </div>
-                        <div className="project-info-item">
+                        {/* <div className="project-info-item">
                             <div className="project-info-label">DESIGNER</div>
                             <div className="project-info-value">
                                 {detailArr[index].designer}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

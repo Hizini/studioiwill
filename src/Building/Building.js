@@ -30,11 +30,11 @@ const Building = ({
 
     const checkedBuildingIndexes =
         JSON.parse(sessionStorage.getItem("checkedBuildingIndexes")) ?? [];
-    const isChecked = checkedBuildingIndexes.includes(index);
+    const isChecked = checkedBuildingIndexes.includes(number);
 
     const goto = (url, params) => {
         if (!isChecked) {
-            checkedBuildingIndexes.push(index);
+            checkedBuildingIndexes.push(number);
             sessionStorage.setItem(
                 "checkedBuildingIndexes",
                 JSON.stringify(checkedBuildingIndexes)
