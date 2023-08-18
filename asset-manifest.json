@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/studioiwill/static/css/main.4f69669e.css",
-    "main.js": "/studioiwill/static/js/main.a01d4401.js",
+    "main.js": "/studioiwill/static/js/main.f2715a58.js",
     "static/js/787.0034d6a4.chunk.js": "/studioiwill/static/js/787.0034d6a4.chunk.js",
     "static/media/NanumSquareNeo-Regular.ttf": "/studioiwill/static/media/NanumSquareNeo-Regular.dc621da24afcf6c33e03.ttf",
     "static/media/NanumSquareNeo-Blold.ttf": "/studioiwill/static/media/NanumSquareNeo-Blold.2bf6888760d6cd8ba7c1.ttf",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/studioiwill/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/studioiwill/index.html",
     "main.4f69669e.css.map": "/studioiwill/static/css/main.4f69669e.css.map",
-    "main.a01d4401.js.map": "/studioiwill/static/js/main.a01d4401.js.map",
+    "main.f2715a58.js.map": "/studioiwill/static/js/main.f2715a58.js.map",
     "787.0034d6a4.chunk.js.map": "/studioiwill/static/js/787.0034d6a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f69669e.css",
-    "static/js/main.a01d4401.js"
+    "static/js/main.f2715a58.js"
   ]
 }
