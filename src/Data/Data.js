@@ -549,7 +549,7 @@ const projectData = {
             ...data01,
             style: {
                 height: "280%",
-                marginLeft: "-24%",
+                marginLeft: "-22%",
             },
             mobile_style: {
                 height: "100px",
