@@ -3,7 +3,7 @@ import { PUBLIC_IMG_PATH } from "../js/util";
 const data01 = {
     number: "01",
     title: "STUDIO I’ll",
-    date: "2022.09",
+    date: "",
 	sub: "Office",
     location: "서울시 송파구 방이동 168 - 5",
     area: "826m² (52.84PY)",
@@ -13,7 +13,7 @@ const data01 = {
 const data02 = {
     number: "02",
     title: "Gray City\ncompany building",
-    date: "2022.06",
+    date: "",
 	sub: "SMP, hair shop, Office",
     location: "",
     area: "",
@@ -23,7 +23,7 @@ const data02 = {
 const data03 = {
     number: "03",
     title: "BLUE HOUSE",
-    date: "2022.06",
+    date: "",
 	sub: "smp, beauty shop",
     location: "",
     area: "",
@@ -33,7 +33,7 @@ const data03 = {
 const data04 = {
     number: "04",
     title: "WHITE HOUSE",
-    date: "2022.06",
+    date: "",
 	sub: "smp, Barber Shop",
     location: "",
     area: "",
@@ -43,7 +43,7 @@ const data04 = {
 const data05 = {
     number: "05",
     title: "BLOW HAIR",
-    date: "2022.06",
+    date: "",
 	sub: "Hair salon",
     location: "",
     area: "",
@@ -53,7 +53,7 @@ const data05 = {
 const data06 = {
     number: "06",
     title: "INNOCELLGENE",
-    date: "2022.06",
+    date: "",
 	sub: "Office",
     location: "",
     area: "",
@@ -63,7 +63,7 @@ const data06 = {
 const data07 = {
     number: "07",
     title: "INCHEON SONGDO\n- 60PY",
-    date: "2022.06",
+    date: "",
 	sub: "House",
     location: "",
     area: "",
@@ -73,7 +73,7 @@ const data07 = {
 const data08 = {
     number: "08",
     title: "GANGHWA DO\n- 60PY",
-    date: "2022.06",
+    date: "",
 	sub: "House",
     location: "",
     area: "",
@@ -83,7 +83,7 @@ const data08 = {
 const data09 = {
     number: "09",
     title: "OA CAFE",
-    date: "2022.06",
+    date: "",
 	sub: "Cafe",
     location: "",
     area: "",
@@ -93,7 +93,7 @@ const data09 = {
 const data10 = {
     number: "10",
     title: "NI. A. AM",
-    date: "2022.06",
+    date: "",
 	sub: "Sake Bar",
     location: "",
     area: "",
@@ -103,7 +103,7 @@ const data10 = {
 const data11 = {
     number: "11",
     title: "DAECHI 897-12\nBUILDING",
-    date: "2022.06",
+    date: "",
 	sub: "New-built",
     location: "",
     area: "",
@@ -113,7 +113,7 @@ const data11 = {
 const data12 = {
     number: "12",
     title: "DAECHI 996-7\nBUILDING",
-    date: "2022.06",
+    date: "",
 	sub: "New-built",
     location: "",
     area: "",
@@ -123,7 +123,7 @@ const data12 = {
 const data13 = {
     number: "13",
     title: "YEOKSAM 695-8\nBUILDING",
-    date: "2022.06",
+    date: "",
 	sub: "Renovation",
     location: "",
     area: "",
@@ -133,7 +133,7 @@ const data13 = {
 const data14 = {
     number: "14",
     title: "JAMWON 11-5\nBUILDING",
-    date: "2022.06",
+    date: "",
 	sub: "Renovation",
     location: "",
     area: "",
@@ -143,8 +143,18 @@ const data14 = {
 const data15 = {
     number: "15",
     title: "GYESAN TOWN HOUSE",
-    date: "2022.06",
+    date: "",
 	sub: "housing project",
+    location: "",
+    area: "",
+    designer: "",
+};
+
+const data16 = {
+    number: "16",
+    title: "SHARING OF THOUGHTS #02",
+    date: "",
+	sub: "Exhibition",
     location: "",
     area: "",
     designer: "",
@@ -338,7 +348,6 @@ const projectData = {
                 marginLeft: "10%",
             },
         },
-
 		{
             ...data15,
             style: {
@@ -352,6 +361,19 @@ const projectData = {
                 marginLeft: "10%",
             },
         },
+		{
+			...data16,
+			style: {
+                height: "330px",
+                position: "absolute",
+                marginLeft: "40%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+		},
 
         // 2
         {
@@ -529,7 +551,6 @@ const projectData = {
                 marginLeft: "10%",
             },
         },
-
 		{
             ...data15,
             style: {
@@ -543,6 +564,19 @@ const projectData = {
                 marginLeft: "10%",
             },
         },
+		{
+			...data16,
+			style: {
+                height: "102%",
+                position: "absolute",
+                marginLeft: "48%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+		},
 
         // 3
         {
@@ -732,6 +766,19 @@ const projectData = {
                 marginLeft: "10%",
             },
         },
+		{
+			...data16,
+			style: {
+                height: "240%",
+                position: "absolute",
+                marginLeft: "24%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+		},
 
         // 4
         {
@@ -899,6 +946,18 @@ const projectData = {
                 marginLeft: "10px",
             },
         },
+		{
+			...data16,
+			style: {
+				height: "400%",
+                marginLeft: "-67%",
+            },
+            mobile_style: {
+                height: "250px",
+                position: "absolute",
+                marginLeft: "10%",
+            },
+		},
         // 5
         // {
         //     ...data01,
@@ -1036,8 +1095,36 @@ const detailImges = {
     '3': [
         { src: `${PUBLIC_IMG_PATH}/project3/001.png` },
         { src: `${PUBLIC_IMG_PATH}/project3/002.png` },
-        { src: `${PUBLIC_IMG_PATH}/project3/003.jpg` },
+        { src: `${PUBLIC_IMG_PATH}/project3/003.png` },
         { src: `${PUBLIC_IMG_PATH}/project3/004.png` },
+        { src: `${PUBLIC_IMG_PATH}/project3/005.jpg` },
+    ],
+	'4': [
+        { src: `${PUBLIC_IMG_PATH}/project4/001.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/002.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/003.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/004.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/005.png` },
+		{ src: `${PUBLIC_IMG_PATH}/project4/006.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/007.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/008.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/009.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/010.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/011.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/012.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/014.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/015.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/016.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/017.png` },
+        { src: `${PUBLIC_IMG_PATH}/project4/018.png` },
+    ],
+	'6': [
+        { src: `${PUBLIC_IMG_PATH}/project6/001.png` },
+        { src: `${PUBLIC_IMG_PATH}/project6/002.png` },
+        { src: `${PUBLIC_IMG_PATH}/project6/003.png` },
+        { src: `${PUBLIC_IMG_PATH}/project6/004.png` },
+        { src: `${PUBLIC_IMG_PATH}/project6/005.png` },
+        { src: `${PUBLIC_IMG_PATH}/project6/006.png` },
     ],
     '8': [
         { src: `${PUBLIC_IMG_PATH}/project8/001.png` },
@@ -1056,5 +1143,14 @@ const detailImges = {
         { src: `${PUBLIC_IMG_PATH}/project8/014.png` },
         { src: `${PUBLIC_IMG_PATH}/project8/015.png` },
     ],
+	'15': [
+		{ src: `${PUBLIC_IMG_PATH}/project15/001.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/002.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/003.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/004.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/005.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/006.png` },
+        { src: `${PUBLIC_IMG_PATH}/project15/007.png` },
+	]
 };
 export { projectData, detailImges };

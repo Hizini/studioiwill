@@ -13,6 +13,7 @@ const Home = () => {
 
     const showBuildingDetail = (detailInfo) => {
         setParams(detailInfo);
+		console.log({detailInfo})
         setShowDetail(true);
     };
 
