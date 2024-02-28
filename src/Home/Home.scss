@@ -13,7 +13,7 @@
 		position: relative;
 
 		.logo-area {
-			cursor: pointer;
+			// cursor: pointer;
 			width: 300px;
 			height: 300px;
 			padding: 100px;
@@ -51,6 +51,10 @@
 width: 18px;
 height: 18px;
 			}
+		}
+
+		.email {
+			color: black;
 		}
 	}
 }

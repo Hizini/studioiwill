@@ -55,7 +55,7 @@ const Home = () => {
                                 className="email"
                                 href="mailto:designstudio.iwill@gmail.com"
                             >
-                                Studio_iwill@daum.net
+                                designstudio.iwill@gmail.com
                             </a>
                         </div>
                     </>

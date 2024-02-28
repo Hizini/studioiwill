@@ -52,10 +52,8 @@
         border-right: 3px solid black;
 
         &.checked {
-			// background: linear-gradient(black 10%, white 10% 20%, black 20% 30%, white 30% 40%, black 40% 50%, white 50% 60%, black 60% 70%, white 70% 80%, black 80% 90%, white 90% 100%);
-            // background-size: 100% 25px;
-			background: linear-gradient(black 3px, white 3px 6px, black 6px 9px, white 9px 12px, black 9px 12px, white 12px 15px, black 15px 18px, white 18px 21px, black 21px 24px, white 24px 27px, black 27px 30px, white 30px 33px, black 33px 36px, white 36px 39px, black 39px 42px, white 42px 45px);
-			background-size: 100% 5px;
+			background: linear-gradient(black 50%, white 50%);
+     		background-size: 100% 6px; 
         }
     }
 }
