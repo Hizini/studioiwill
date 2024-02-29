@@ -31,6 +31,7 @@
             color: #252525;
             margin: 9px 0 3px 0;
 			white-space: pre-wrap;
+			word-break: break-all;
         }
 
         .sub {
@@ -47,13 +48,14 @@
         background: black;
         position: absolute;
         right: -26px;
-        bottom: -21.5px;
+        bottom: -22.5px;
         transform: skewY(45deg);
         border-right: 3px solid black;
+        border-top: 1px solid black;
 
         &.checked {
 			background: linear-gradient(black 50%, white 50%);
-     		background-size: 100% 6px; 
+     		background-size: 100% 6px;
         }
     }
 }
