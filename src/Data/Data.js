@@ -249,7 +249,7 @@ const projectData = {
             style: {
                 height: "750px",
                 position: "absolute",
-                marginLeft: "20%",
+                marginLeft: "200px",
             },
             mobile_style: {
                 height: "450px",
@@ -262,7 +262,7 @@ const projectData = {
             style: {
                 height: "850px",
                 position: "absolute",
-                marginLeft: "calc(50% - 30px)",
+                marginLeft: "485px",
             },
             mobile_style: {
                 height: "90px",
@@ -275,7 +275,7 @@ const projectData = {
             style: {
                 height: "700px",
                 position: "absolute",
-                marginLeft: "calc(65% + 30px)",
+                marginLeft: "730px",
             },
             mobile_style: {
                 height: "250px",
@@ -288,7 +288,7 @@ const projectData = {
             style: {
                 height: "950px",
                 position: "absolute",
-                marginLeft: "55%",
+                marginLeft: "575px",
             },
             mobile_style: {
                 height: "250px",
@@ -314,7 +314,7 @@ const projectData = {
             style: {
                 height: "1100px",
                 position: "absolute",
-                marginLeft: "calc(20% + 30px)",
+                marginLeft: "288px",
             },
             mobile_style: {
                 height: "450px",
@@ -327,7 +327,7 @@ const projectData = {
             style: {
                 height: "1200px",
                 position: "absolute",
-                marginLeft: "calc(40% - 10px)",
+                marginLeft: "400px",
             },
             mobile_style: {
                 height: "90px",
@@ -340,7 +340,7 @@ const projectData = {
             style: {
                 height: "1150px",
                 position: "absolute",
-                marginLeft: "calc(60% + 30px)",
+                marginLeft: "692px",
             },
             mobile_style: {
                 height: "250px",
@@ -353,7 +353,7 @@ const projectData = {
             style: {
                 height: "1300px",
                 position: "absolute",
-                marginLeft: "70%",
+                marginLeft: "735px",
             },
             mobile_style: {
                 height: "250px",
@@ -366,7 +366,7 @@ const projectData = {
 			style: {
                 height: "1400px",
                 position: "absolute",
-                marginLeft: "40%",
+                marginLeft: "480px",
             },
             mobile_style: {
                 height: "250px",
@@ -426,7 +426,7 @@ const projectData = {
             ...data05,
             style: {
                 height: "1620px",
-                marginLeft: "-80%",
+                marginLeft: "24px",
             },
             mobile_style: {
                 height: "600px",
@@ -452,7 +452,7 @@ const projectData = {
             style: {
                 height: "1720px",
                 position: "absolute",
-                marginLeft: "calc(30% + 50px)",
+                marginLeft: "320px",
             },
             mobile_style: {
                 height: "450px",
@@ -465,7 +465,7 @@ const projectData = {
             style: {
                 height: "1920px",
                 position: "absolute",
-                marginLeft: "calc(50% - 10px)",
+                marginLeft: "544px",
             },
             mobile_style: {
                 height: "90px",
@@ -478,7 +478,7 @@ const projectData = {
             style: {
                 height: "2020px",
                 position: "absolute",
-                marginLeft: "calc(60% + 30px)",
+                marginLeft: "725px",
             },
             mobile_style: {
                 height: "250px",
@@ -491,7 +491,7 @@ const projectData = {
             style: {
                 height: "2150px",
                 position: "absolute",
-                marginLeft: "70%",
+                marginLeft: "688px",
             },
             mobile_style: {
                 height: "250px",
@@ -517,7 +517,7 @@ const projectData = {
             style: {
                 height: "2060px",
                 position: "absolute",
-                marginLeft: "calc(20% + 30px)",
+                marginLeft: "216px",
             },
             mobile_style: {
                 height: "450px",
@@ -530,7 +530,7 @@ const projectData = {
             style: {
                 height: "2180px",
                 position: "absolute",
-                marginLeft: "calc(40% - 10px)",
+                marginLeft: "390px",
             },
             mobile_style: {
                 height: "90px",
@@ -543,7 +543,7 @@ const projectData = {
             style: {
                 height: "2320px",
                 position: "absolute",
-                marginLeft: "calc(55% - 30px)",
+                marginLeft: "520px",
             },
             mobile_style: {
                 height: "250px",
@@ -556,7 +556,7 @@ const projectData = {
             style: {
                 height: "2440px",
                 position: "absolute",
-                marginLeft: "68%",
+                marginLeft: "746px",
             },
             mobile_style: {
                 height: "250px",
@@ -583,7 +583,7 @@ const projectData = {
             ...data01,
             style: {
                 height: "2500px",
-                marginLeft: "-22%",
+                marginLeft: "-588px",
             },
             mobile_style: {
                 height: "100px",
@@ -629,7 +629,7 @@ const projectData = {
             ...data05,
             style: {
                 height: "2830px",
-                marginLeft: "-47%",
+                marginLeft: "-600px",
             },
             mobile_style: {
                 height: "600px",
@@ -642,7 +642,7 @@ const projectData = {
             style: {
                 height: "2930px",
                 position: "absolute",
-                marginLeft: "calc(40% - 30px)",
+                marginLeft: "480px",
             },
             mobile_style: {
                 height: "700px",
@@ -668,7 +668,7 @@ const projectData = {
             style: {
                 height: "3080px",
                 position: "absolute",
-                marginLeft: "53%",
+                marginLeft: "626px",
             },
             mobile_style: {
                 height: "90px",
@@ -694,7 +694,7 @@ const projectData = {
             style: {
                 height: "3240px",
                 position: "absolute",
-				marginLeft: "20px"
+				marginLeft: "32px"
             },
             mobile_style: {
                 height: "250px",
@@ -720,7 +720,7 @@ const projectData = {
             style: {
                 height: "3400px",
                 position: "absolute",
-                marginLeft: "26%",
+                marginLeft: "280px",
             },
             mobile_style: {
                 height: "250px",
@@ -733,7 +733,7 @@ const projectData = {
             style: {
                 height: "3520px",
                 position: "absolute",
-                marginLeft: "39%",
+                marginLeft: "450px",
             },
             mobile_style: {
                 height: "250px",
@@ -746,7 +746,7 @@ const projectData = {
             style: {
                 height: "3600px",
                 position: "absolute",
-                marginLeft: "65%",
+                marginLeft: "685px",
             },
             mobile_style: {
                 height: "250px",
@@ -772,7 +772,7 @@ const projectData = {
 			style: {
                 height: "3680px",
                 position: "absolute",
-                marginLeft: "20%",
+                marginLeft: "226px",
             },
             mobile_style: {
                 height: "250px",
@@ -830,7 +830,7 @@ const projectData = {
             ...data05,
             style: {
                 height: "4100px",
-                marginLeft: "-80%",
+                marginLeft: "-710px",
             },
             mobile_style: {
                 height: "100px",
@@ -885,7 +885,7 @@ const projectData = {
             ...data10,
             style: {
                 height: "4380px",
-                marginLeft: "-80%",
+                marginLeft: "-445px",
             },
             mobile_style: {
                 height: "100px",
