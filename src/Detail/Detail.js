@@ -116,9 +116,9 @@ const Detail = (props) => {
                     </div>
                     <div className="project-info">
                         <div className="project-info-item">
-                            <div className="project-info-label">DATE</div>
+                            <div className="project-info-label">TYPE</div>
                             <div className="project-info-value">
-                                {detailArr[index].date}
+                                {detailArr[index].sub}
                             </div>
                         </div>
                         <div className="project-info-item">

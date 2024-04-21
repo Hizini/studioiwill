@@ -177,7 +177,7 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "94%",
+                height: "300px",
             },
             mobile_style: {
                 height: "100px",
@@ -187,7 +187,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "82%",
+                height: "420px",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -198,7 +198,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "69%",
+                height: "550px",
                 marginLeft: "-40px",
             },
             mobile_style: {
@@ -210,8 +210,8 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "84%",
-                marginLeft: "40px",
+                height: "480px",
+                marginLeft: "-40px",
             },
             mobile_style: {
                 height: "500px",
@@ -222,8 +222,8 @@ const projectData = {
 		{
             ...data05,
             style: {
-                height: "79%",
-                marginLeft: "-30px",
+                height: "370px",
+                marginLeft: "-108px",
             },
             mobile_style: {
                 height: "600px",
@@ -234,7 +234,7 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "64%",
+                height: "600px",
                 position: "absolute",
                 marginLeft: "40px",
             },
@@ -247,7 +247,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "54%",
+                height: "750px",
                 position: "absolute",
                 marginLeft: "20%",
             },
@@ -260,7 +260,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "59%",
+                height: "850px",
                 position: "absolute",
                 marginLeft: "calc(50% - 30px)",
             },
@@ -273,7 +273,7 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "66%",
+                height: "700px",
                 position: "absolute",
                 marginLeft: "calc(65% + 30px)",
             },
@@ -286,7 +286,7 @@ const projectData = {
 		{
             ...data10,
             style: {
-                height: "47%",
+                height: "950px",
                 position: "absolute",
                 marginLeft: "55%",
             },
@@ -299,7 +299,7 @@ const projectData = {
         {
             ...data11,
             style: {
-                height: "145px",
+                height: "950px",
                 position: "absolute",
                 marginLeft: "60px",
             },
@@ -312,7 +312,7 @@ const projectData = {
         {
             ...data12,
             style: {
-                height: "246px",
+                height: "1100px",
                 position: "absolute",
                 marginLeft: "calc(20% + 30px)",
             },
@@ -325,7 +325,7 @@ const projectData = {
         {
             ...data13,
             style: {
-                height: "150px",
+                height: "1200px",
                 position: "absolute",
                 marginLeft: "calc(40% - 10px)",
             },
@@ -338,7 +338,7 @@ const projectData = {
         {
             ...data14,
             style: {
-                height: "262px",
+                height: "1150px",
                 position: "absolute",
                 marginLeft: "calc(60% + 30px)",
             },
@@ -351,7 +351,7 @@ const projectData = {
 		{
             ...data15,
             style: {
-                height: "190px",
+                height: "1300px",
                 position: "absolute",
                 marginLeft: "70%",
             },
@@ -364,7 +364,7 @@ const projectData = {
 		{
 			...data16,
 			style: {
-                height: "330px",
+                height: "1400px",
                 position: "absolute",
                 marginLeft: "40%",
             },
@@ -379,8 +379,8 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "190%",
-                marginLeft: "-95%",
+                height: "1260px",
+                marginLeft: "-720px",
             },
             mobile_style: {
                 height: "100px",
@@ -390,8 +390,8 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "176%",
-                marginLeft: "-30px",
+                height: "1480px",
+                marginLeft: "-80px",
             },
             mobile_style: {
                 height: "200px",
@@ -401,7 +401,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "180%",
+                height: "1520px",
                 marginLeft: "30px",
             },
             mobile_style: {
@@ -413,8 +413,8 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "193%",
-                marginLeft: "40px",
+                height: "1600px",
+                marginLeft: "-120px",
             },
             mobile_style: {
                 height: "500px",
@@ -425,7 +425,7 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "160%",
+                height: "1620px",
                 marginLeft: "-80%",
             },
             mobile_style: {
@@ -437,9 +437,9 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "140%",
+                height: "1800px",
                 position: "absolute",
-                marginLeft: "20%",
+                marginLeft: "80px",
             },
             mobile_style: {
                 height: "700px",
@@ -450,7 +450,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "164%",
+                height: "1720px",
                 position: "absolute",
                 marginLeft: "calc(30% + 50px)",
             },
@@ -463,7 +463,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "150%",
+                height: "1920px",
                 position: "absolute",
                 marginLeft: "calc(50% - 10px)",
             },
@@ -476,7 +476,7 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "165%",
+                height: "2020px",
                 position: "absolute",
                 marginLeft: "calc(60% + 30px)",
             },
@@ -489,7 +489,7 @@ const projectData = {
 		{
             ...data10,
             style: {
-                height: "147%",
+                height: "2150px",
                 position: "absolute",
                 marginLeft: "70%",
             },
@@ -502,7 +502,7 @@ const projectData = {
         {
             ...data11,
             style: {
-                height: "120%",
+                height: "1950px",
                 position: "absolute",
                 marginLeft: "60px",
             },
@@ -515,7 +515,7 @@ const projectData = {
         {
             ...data12,
             style: {
-                height: "114%",
+                height: "2060px",
                 position: "absolute",
                 marginLeft: "calc(20% + 30px)",
             },
@@ -528,7 +528,7 @@ const projectData = {
         {
             ...data13,
             style: {
-                height: "134%",
+                height: "2180px",
                 position: "absolute",
                 marginLeft: "calc(40% - 10px)",
             },
@@ -541,7 +541,7 @@ const projectData = {
         {
             ...data14,
             style: {
-                height: "118%",
+                height: "2320px",
                 position: "absolute",
                 marginLeft: "calc(55% - 30px)",
             },
@@ -554,7 +554,7 @@ const projectData = {
 		{
             ...data15,
             style: {
-                height: "110%",
+                height: "2440px",
                 position: "absolute",
                 marginLeft: "68%",
             },
@@ -567,9 +567,9 @@ const projectData = {
 		{
 			...data16,
 			style: {
-                height: "102%",
+                height: "2300px",
                 position: "absolute",
-                marginLeft: "48%",
+                marginLeft: "30px",
             },
             mobile_style: {
                 height: "250px",
@@ -582,7 +582,7 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "280%",
+                height: "2500px",
                 marginLeft: "-22%",
             },
             mobile_style: {
@@ -593,7 +593,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "300%",
+                height: "2630px",
                 marginLeft: "-40px",
             },
             mobile_style: {
@@ -604,7 +604,7 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "288%",
+                height: "2700px",
                 marginLeft: "40px",
             },
             mobile_style: {
@@ -616,8 +616,8 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "300%",
-                marginLeft: "-70px",
+                height: "2820px",
+                marginLeft: "-170px",
             },
             mobile_style: {
                 height: "500px",
@@ -628,8 +628,8 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "260%",
-                marginLeft: "-60%",
+                height: "2830px",
+                marginLeft: "-47%",
             },
             mobile_style: {
                 height: "600px",
@@ -640,7 +640,7 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "250%",
+                height: "2930px",
                 position: "absolute",
                 marginLeft: "calc(40% - 30px)",
             },
@@ -653,9 +653,9 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "235%",
+                height: "2800px",
                 position: "absolute",
-                marginLeft: "calc(40% + 30px)",
+                marginLeft: "60px",
             },
             mobile_style: {
                 height: "450px",
@@ -666,7 +666,7 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "265%",
+                height: "3080px",
                 position: "absolute",
                 marginLeft: "53%",
             },
@@ -679,9 +679,9 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "256%",
+                height: "3120px",
                 position: "absolute",
-                marginLeft: "calc(65% + 30px)",
+                marginLeft: "120px",
             },
             mobile_style: {
                 height: "250px",
@@ -692,8 +692,9 @@ const projectData = {
 		{
             ...data10,
             style: {
-                height: "236%",
+                height: "3240px",
                 position: "absolute",
+				marginLeft: "20px"
             },
             mobile_style: {
                 height: "250px",
@@ -704,9 +705,9 @@ const projectData = {
 		{
             ...data11,
             style: {
-                height: "226%",
+                height: "3200px",
                 position: "absolute",
-                marginLeft: "12%",
+                marginLeft: "550px",
             },
             mobile_style: {
                 height: "250px",
@@ -717,7 +718,7 @@ const projectData = {
 		{
             ...data12,
             style: {
-                height: "216%",
+                height: "3400px",
                 position: "absolute",
                 marginLeft: "26%",
             },
@@ -730,7 +731,7 @@ const projectData = {
 		{
             ...data13,
             style: {
-                height: "196%",
+                height: "3520px",
                 position: "absolute",
                 marginLeft: "39%",
             },
@@ -743,9 +744,9 @@ const projectData = {
 		{
             ...data14,
             style: {
-                height: "216%",
+                height: "3600px",
                 position: "absolute",
-                marginLeft: "50%",
+                marginLeft: "65%",
             },
             mobile_style: {
                 height: "250px",
@@ -756,9 +757,9 @@ const projectData = {
 		{
             ...data15,
             style: {
-                height: "232%",
+                height: "3400px",
                 position: "absolute",
-                marginLeft: "63%",
+                marginLeft: "590px",
             },
             mobile_style: {
                 height: "250px",
@@ -769,9 +770,9 @@ const projectData = {
 		{
 			...data16,
 			style: {
-                height: "240%",
+                height: "3680px",
                 position: "absolute",
-                marginLeft: "24%",
+                marginLeft: "20%",
             },
             mobile_style: {
                 height: "250px",
@@ -784,8 +785,8 @@ const projectData = {
         {
             ...data01,
             style: {
-                height: "380%",
-                marginLeft: "-32%",
+                height: "3800px",
+                marginLeft: "-480px",
             },
             mobile_style: {
                 height: "100px",
@@ -795,7 +796,7 @@ const projectData = {
         {
             ...data02,
             style: {
-                height: "410%",
+                height: "3920px",
                 marginLeft: "-30px",
             },
             mobile_style: {
@@ -806,8 +807,8 @@ const projectData = {
         {
             ...data03,
             style: {
-                height: "376%",
-                marginLeft: "65px",
+                height: "3900px",
+                marginLeft: "50px",
             },
             mobile_style: {
                 height: "100px",
@@ -817,7 +818,7 @@ const projectData = {
         {
             ...data04,
             style: {
-                height: "405%",
+                height: "3780px",
                 marginLeft: "-50px",
             },
             mobile_style: {
@@ -828,8 +829,8 @@ const projectData = {
         {
             ...data05,
             style: {
-                height: "368%",
-                marginLeft: "-76%",
+                height: "4100px",
+                marginLeft: "-80%",
             },
             mobile_style: {
                 height: "100px",
@@ -839,7 +840,7 @@ const projectData = {
         {
             ...data06,
             style: {
-                height: "354%",
+                height: "4260px",
                 marginLeft: "-28px",
             },
             mobile_style: {
@@ -850,7 +851,7 @@ const projectData = {
         {
             ...data07,
             style: {
-                height: "346%",
+                height: "4060px",
                 marginLeft: "-28px",
             },
             mobile_style: {
@@ -861,8 +862,8 @@ const projectData = {
         {
             ...data08,
             style: {
-                height: "360%",
-                marginLeft: "-30px",
+                height: "4220px",
+                marginLeft: "-160px",
             },
             mobile_style: {
                 height: "100px",
@@ -872,8 +873,8 @@ const projectData = {
         {
             ...data09,
             style: {
-                height: "340%",
-                marginLeft: "-134px",
+                height: "4400px",
+                marginLeft: "-232px",
             },
             mobile_style: {
                 height: "100px",
@@ -883,7 +884,7 @@ const projectData = {
 		{
             ...data10,
             style: {
-                height: "332%",
+                height: "4380px",
                 marginLeft: "-80%",
             },
             mobile_style: {
@@ -894,8 +895,8 @@ const projectData = {
 		{
             ...data11,
             style: {
-                height: "314%",
-                marginLeft: "-134px",
+                height: "4500px",
+                marginLeft: "-76px",
             },
             mobile_style: {
                 height: "100px",
@@ -905,7 +906,7 @@ const projectData = {
 		{
             ...data12,
             style: {
-                height: "320%",
+                height: "4560px",
                 marginLeft: "22px",
             },
             mobile_style: {
@@ -916,8 +917,8 @@ const projectData = {
         {
             ...data13,
             style: {
-                height: "332%",
-                marginLeft: "-50px",
+                height: "4700px",
+                marginLeft: "-74px",
             },
             mobile_style: {
                 height: "100px",
@@ -927,8 +928,8 @@ const projectData = {
 		{
             ...data14,
             style: {
-                height: "320%",
-                marginLeft: "-80px",
+                height: "4440px",
+                marginLeft: "-760px",
             },
             mobile_style: {
                 height: "100px",
@@ -938,8 +939,8 @@ const projectData = {
 		{
             ...data15,
             style: {
-                height: "310%",
-                marginLeft: "-114px",
+                height: "4700px",
+                marginLeft: "-150px",
             },
             mobile_style: {
                 height: "100px",
@@ -949,8 +950,8 @@ const projectData = {
 		{
 			...data16,
 			style: {
-				height: "400%",
-                marginLeft: "-67%",
+				height: "4720px",
+                marginLeft: "120px",
             },
             mobile_style: {
                 height: "250px",

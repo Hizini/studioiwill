@@ -56,6 +56,7 @@ const Building = ({
             ref={ref}
         >
             <div className="text-area">
+				{index+1}
                 {/* <div className="number">{number}</div> */}
 				<div className="sub">{sub}</div>
                 <div className="title">{title}</div>
