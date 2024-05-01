@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/studioiwill/static/css/main.3b03cf6e.css",
+    "main.js": "/studioiwill/static/js/main.9e696067.js",
+    "static/js/787.0034d6a4.chunk.js": "/studioiwill/static/js/787.0034d6a4.chunk.js",
+    "static/media/NanumSquareNeo-Regular.ttf": "/studioiwill/static/media/NanumSquareNeo-Regular.dc621da24afcf6c33e03.ttf",
+    "static/media/NanumSquareNeo-Blold.ttf": "/studioiwill/static/media/NanumSquareNeo-Blold.2bf6888760d6cd8ba7c1.ttf",
+    "static/media/NanumSquareNeo-Heavy.ttf": "/studioiwill/static/media/NanumSquareNeo-Heavy.fbea4b3da8b8e421a165.ttf",
+    "static/media/slick.svg": "/studioiwill/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/studioiwill/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/studioiwill/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/studioiwill/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/studioiwill/index.html",
+    "main.3b03cf6e.css.map": "/studioiwill/static/css/main.3b03cf6e.css.map",
+    "main.9e696067.js.map": "/studioiwill/static/js/main.9e696067.js.map",
+    "787.0034d6a4.chunk.js.map": "/studioiwill/static/js/787.0034d6a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b03cf6e.css",
+    "static/js/main.9e696067.js"
+  ]
+}
