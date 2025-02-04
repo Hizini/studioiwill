@@ -2,20 +2,20 @@ import React, { useState } from "react";
 import "./Home.scss";
 import Building from "./Building/Building";
 import { projectData } from "../../Data/Data";
-import { Drawer } from "@material-ui/core";
-import { PUBLIC_IMG_PATH } from '../../js/util';
+// import { Drawer } from "@material-ui/core";
+import { PUBLIC_IMG_PATH } from "../../js/util";
 
 const Home = () => {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
-    const handleClickMenu = () => {
-        setIsOpenMenu(!isOpenMenu);
-    };
+    // const handleClickMenu = () => {
+    //     setIsOpenMenu(!isOpenMenu);
+    // };
     const bodyHeight =
         Math.max(
             ...projectData.data.map((v) =>
                 Number(v.mobile_style.height.slice(0, -2))
             )
-        ) + 13;
+        ) + 100;
     return (
         <div className="studioiwill-mobile-home-root-container">
             <div className="mobile-home-header">
@@ -24,12 +24,25 @@ const Home = () => {
                     src={`${PUBLIC_IMG_PATH}/studioiwill-logo.svg`}
                     alt="logo"
                 />
-                <img
+                <div className="header-right">
+                    <img
+                        className="instagram"
+                        src={`${PUBLIC_IMG_PATH}/instagram.png`}
+                        alt="instagram"
+                        onClick={() => {
+                            window.open(
+                                "https://instagram.com/design.studio.iwill?igshid=MjEwN2IyYWYwYw==",
+                                "_blank"
+                            );
+                        }}
+                    />
+                </div>
+                {/* <img
                     className="menu"
                     src={`${PUBLIC_IMG_PATH}/menu.webp`}
                     alt="menu"
                     onClick={handleClickMenu}
-                />
+                /> */}
             </div>
             <div className="mobile-home-body" style={{ height: bodyHeight }}>
                 {projectData.data.map((data, index) => (
@@ -39,16 +52,17 @@ const Home = () => {
                         title={data.title}
                         date={data.date}
                         index={index}
+                        sub={data.sub}
                         key={index}
                     />
                 ))}
             </div>
-            <Drawer
+            {/* <Drawer
                 anchor="right"
                 open={isOpenMenu}
                 onClose={handleClickMenu}
                 onOpen={handleClickMenu}
-                style={{ zIndex: 9999 }}
+                style={{ zIndex: 9999, maxWidth: '100%' }}
                 PaperProps={{
                     style: {
                         width: "80vw",
@@ -86,7 +100,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </Drawer>
+            </Drawer> */}
         </div>
     );
 };

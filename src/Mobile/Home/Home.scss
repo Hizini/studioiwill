@@ -4,6 +4,7 @@
 	min-height: 100vh;
 	max-width: 100vw;
 	width: 100%;
+	overflow-x: hidden;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 
@@ -13,6 +14,7 @@
 
 	.mobile-home-header {
 		width: calc(100% - 40px);
+		max-width: calc(100vw - 40px);
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -28,9 +30,16 @@
 			height: 26px;
 		}
 
-		.menu {
-			width: 24px;
-			height: 24px;
+
+		.header-right {
+			display: flex;
+			flex-direction: row;
+			gap: 8px;
+		}
+
+		.instagram {
+			width: 20px;
+			height: 20px;
 		}
 	}
 
